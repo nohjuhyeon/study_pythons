@@ -10,34 +10,10 @@
 
 a,b = map(int, input().split())
 c = int(input())
-if c < 60:
-    if b + c > 60:
-        if a != 23:
-            print("{} {}" .format(a+1, b+c-60))
-            pass
-        else :
-            print("0 {}" .format(b+c-60))
-            pass
-        pass
-    elif b + c < 60:
-        print("{} {}" .format(a, b+c))
-        pass
-    else :
-        print("{} 0".format(a+1))
-        pass
+if a + int((b + c)/60) < 24:
+    print("{} {}".format(a + int((b + c)/60), (b + c)% 60))
     pass
-else :
-     if b + int(c % 60) < 60:
-        print("{} {}".format(a + int(c/60),b+(c % 60)))
-        pass
-     else:
-        if a != 23:
-            if (a + int(c/60) + 1) >= 24:
-                print("{} {}".format(a + int(c/60) - 23,b+(c % 60)-60))
-                pass
-            else :
-                print("{} {}".format(a + int(c/60) + 1,b+(c % 60)-60))
-            pass
-        else :
-            print("{} {}".format(int(c/60),b+(c % 60)-60))
-        pass
+else : 
+    print("{} {}".format(a + int((b + c)/60)-24, (b + c)% 60))
+
+

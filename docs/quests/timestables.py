@@ -3,7 +3,6 @@
 # 예. 5 * 1 = 5
 #     5 * 2 = 10
 
-
 num_first = int(input("단 수 입력:"))
 num_second = 0
 while num_second < 9 :
@@ -14,3 +13,4 @@ while num_second < 9 :
     if num_first >=9:
         pass
     pass
+
