@@ -5,4 +5,4 @@
 
 num_first,num_second,num_third = map(int, input() .split())
 cuboid = num_first * num_second * num_third
-print("가로({})m * 세로({})m * 높이({})m = 직육면체({})m" .format(num_first, num_second, num_third, cuboid))
+print("가로({})m * 세로({})m * 높이({})m = 직육면체({})m^3" .format(num_first, num_second, num_third, cuboid))
