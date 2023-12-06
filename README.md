@@ -15,6 +15,13 @@
 |입출력과 사칙연산|[py](./docs/codingtests/11382.py)|3가지 변수를 이용한 덧셈 출력|[백준 11382](https://www.acmicpc.net/problem/11382)|
 |입출력과 사칙연산|[py](./docs/codingtests/10171.py)|고양이 모양 출력|[백준 10171](https://www.acmicpc.net/problem/10171)|
 |입출력과 사칙연산|[py](./docs/codingtests/10172.py)|개 모양 출력|[백준 10172](https://www.acmicpc.net/problem/10172)|
+|조건문|[py](./docs/codingtests/1330.py)|두 수 비교하기|[백준 1330](https://www.acmicpc.net/problem/1330)|
+|조건문|[py](./docs/codingtests/9498.py)|시험 성적 등급 매기기|[백준 9498](https://www.acmicpc.net/problem/9498)|
+|조건문|[py](./docs/codingtests/2753.py)|윤년 찾기|[백준 2753](https://www.acmicpc.net/problem/2753)|
+|조건문|[py](./docs/codingtests/14681.py)|사분면 고르기|[백준 14681](https://www.acmicpc.net/problem/14681)|
+|조건문|[py](./docs/codingtests/2884.py)|알람 시계 설정하기|[백준 2884](https://www.acmicpc.net/problem/2884)|
+|조건문|[py](./docs/codingtests/2525.py)|오븐 시계 설정하기|[백준 2525](https://www.acmicpc.net/problem/2525)|
+|조건문|[py](./docs/codingtests/2468.py)|주사위 세개|[백준 2468](https://www.acmicpc.net/problem/2468)|
 
 
 

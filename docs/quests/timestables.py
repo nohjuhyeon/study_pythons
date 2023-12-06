@@ -3,13 +3,13 @@
 # 예. 5 * 1 = 5
 #     5 * 2 = 10
 
-num_first = int(input("단 수 입력:"))
+num_first = int(input(3))
 num_second = 0
 while num_second < 9 :
     pass
     num_second = num_second + 1
     
-    print("{} X {} = {}".format(num_first,num_second, num_first * num_second))
+    print("{} * {} = {}".format(num_first,num_second, num_first * num_second))
     if num_first >=9:
         pass
     pass
