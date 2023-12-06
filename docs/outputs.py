@@ -16,3 +16,10 @@ if 5 > 2: # 묶음 기호인 :과 tab은 하나의 쌍
     pass #디버깅할 때 유용
     print("Five is greater than two!")
 print("end")
+
+# 한줄에 출력
+first = "First"
+second = "Second"
+print("first : {}! ".format(first), end=", 다음 줄 ")
+print("second : {}! ".format(second))
+print("End program!")

@@ -16,4 +16,4 @@ A = int(input())
 for D in range(A):
     B, C = map(int, sys.stdin.readline() .split())
     D = B + C 
-print(D)
+    print(D)

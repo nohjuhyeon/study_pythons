@@ -69,3 +69,4 @@ num_second
 first, second = "6 8".split()
 num_first, num_second = int(first), int(second)
 pass
+
