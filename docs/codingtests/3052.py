@@ -7,16 +7,22 @@
 # 출력
 ## 첫째 줄에, 42로 나누었을 때, 서로 다른 나머지가 몇 개 있는지 출력한다.
 list_a = []
-d = 0
+list_b = []
 for i in range(10):
     b = int(input())%42
     list_a.append(b)
     pass
-for i in list_a:
-    x = list_a.count(list_a[i])
-    y = x * x 
-    pass
 
 for i in range(10):
+    d =0
     for j in range(i,10):
+        if list_a[j] == list_a[i]:
+            d = d + 1
         pass
+    list_b.append(d)
+    pass
+pass
+x = list_b.count(1)
+pass
+print(x)
+
