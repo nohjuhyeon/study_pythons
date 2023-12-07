@@ -22,6 +22,16 @@
 |조건문|[py](./docs/codingtests/2884.py)|알람 시계 설정하기|[백준 2884](https://www.acmicpc.net/problem/2884)|
 |조건문|[py](./docs/codingtests/2525.py)|오븐 시계 설정하기|[백준 2525](https://www.acmicpc.net/problem/2525)|
 |조건문|[py](./docs/codingtests/2468.py)|주사위 세개|[백준 2468](https://www.acmicpc.net/problem/2468)|
+|반복문|[py](./docs/codingtests/2739.py)|구구단 만들기|[백준 2739](https://www.acmicpc.net/problem/2739)|
+|반복문|[py](./docs/codingtests/10950.py)|A + B|[백준 10950](https://www.acmicpc.net/problem/10950)|
+|반복문|[py](./docs/codingtests/8393.py)|n까지의 합|[백준 8393](https://www.acmicpc.net/problem/8393)|
+|반복문|[py](./docs/codingtests/25304.py)|영수증 만들기|[백준 25304](https://www.acmicpc.net/problem/25304)|
+|반복문|[py](./docs/codingtests/25314.py)|반복하는 문자 만들기|[백준 25314](https://www.acmicpc.net/problem/25314)|
+|반복문|[py](./docs/codingtests/15552.py)|A + B 시스템이용해서 만들기|[백준 15552](https://www.acmicpc.net/problem/15552)|
+|반복문|[py](./docs/codingtests/11021.py)|A + B 값을 문자와 같이 출력하기|[백준 11021](https://www.acmicpc.net/problem/11021)|
+|반복문|[py](./docs/codingtests/11022.py)|A + B 값을 문자와 같이 출력하기|[백준 11022](https://www.acmicpc.net/problem/11022)|
+|반복문|[py](./docs/codingtests/2438.py)|별 출력하기|[백준 2438](https://www.acmicpc.net/p00roblem/2438)|
+|반복문|[py](./docs/codingtests/2439.py)|구구단 만들기|[백준 2439](https://www.acmicpc.net/problem/2439)|
 
 
 
