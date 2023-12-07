@@ -37,7 +37,6 @@ else :
 # 90점 이상 : A, 80점 초과 : B, 나머지 : F
 # my_score = 90
 my_score = 79
-
 if my_score >= 90 : #90점 이상 : A 
     pass
     print("{}은 90점 이상으로 A학점".format(my_score))

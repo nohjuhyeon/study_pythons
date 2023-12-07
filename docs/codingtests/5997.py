@@ -6,20 +6,17 @@
 ## 입력은 총 28줄로 각 제출자(학생)의 출석번호 n(1 ≤ n ≤ 30)가 한 줄에 하나씩 주어진다. 출석번호에 중복은 없다.
 # 출력
 ## 출력은 2줄이다. 1번째 줄엔 제출하지 않은 학생의 출석번호 중 가장 작은 것을 출력하고, 2번째 줄에선 그 다음 출석번호를 출력한다.
-
-list_a = [3,1,4,5,7,9,6,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+list_a=[]
 list_b = []
-# for i in range(28):
-#     list_a.append(int(input()))
-#     list_a.sort()
-pass
 for i in range(28):
-    for j in range(28):
-        if i != list_a[j]:
-            print(i)
-            pass
-        else:
-            pass
-    pass
-pass
+    list_a.append(int(input()))
+for i in range(1, 31):
+    if i in list_a: 
+        pass
+    else :
+        list_b.append(i)
+        pass
+list_b.sort
+print(list_b[0])
+print(list_b[1])
 pass
