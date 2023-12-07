@@ -16,5 +16,3 @@ while num_input != "q":
     num_input = input() #입력값 다시 작성
 pass #입력값이 q일 경우 종료.
 
-
-

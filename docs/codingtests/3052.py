@@ -14,5 +14,9 @@ for i in range(10):
     pass
 for i in list_a:
     x = list_a.count(list_a[i])
-    print(x)
+    y = x * x 
     pass
+
+for i in range(10):
+    for j in range(i,10):
+        pass
