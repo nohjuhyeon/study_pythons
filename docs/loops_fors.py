@@ -61,6 +61,7 @@ for num_count in [0,2,4]:
     list_statistics[index] = list_statistics[index] + 1
 
     print("------------------------")
+
     pass    
 print("선호 답항 : {}".format(list_statistics))
 print("End program!")

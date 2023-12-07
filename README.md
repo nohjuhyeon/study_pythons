@@ -31,7 +31,9 @@
 |반복문|[py](./docs/codingtests/11021.py)|A + B 값을 문자와 같이 출력하기|[백준 11021](https://www.acmicpc.net/problem/11021)|
 |반복문|[py](./docs/codingtests/11022.py)|A + B 값을 문자와 같이 출력하기|[백준 11022](https://www.acmicpc.net/problem/11022)|
 |반복문|[py](./docs/codingtests/2438.py)|별 출력하기|[백준 2438](https://www.acmicpc.net/p00roblem/2438)|
-|반복문|[py](./docs/codingtests/2439.py)|구구단 만들기|[백준 2439](https://www.acmicpc.net/problem/2439)|
+|반복문|[py](./docs/codingtests/2439.py)|오른쪽부터 별 출력하기|[백준 2439](https://www.acmicpc.net/problem/2439)|
+|반복문|[py](./docs/codingtests/10952.py)|0 0 을 치면 입력이 끝나는 A + B|[백준 10952](https://www.acmicpc.net/problem/10952)|
+|반복문|[py](./docs/codingtests/10951.py)|오류가 나면 입력이 끝나는 A + B|[백준 10951](https://www.acmicpc.net/problem/10951)|
 
 
 
