@@ -8,13 +8,17 @@ while True:
     try:
         num_input = input("단수:") #단수 입력
         num_first = int(num_input) #숫자로 변환
-        for num_second in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-            print("{} X {} = {}" .format(num_first,num_second,multiply(num_first,num_second)))
+        if num_first == 30 or num_first == 35 or num_first == 20:
+            for num_second in range(9):
+                print("{} X {} = {}" .format(num_first,num_second,multiply(num_first,num_second)))
+                pass
             pass
-        pass
+        else:
+            print("20, 30, 35 외의 다른 숫자를 입력했습니다. 다시 입력해주세요.")
     except:
         if num_input == "q": #"q"일 경우 종료
             break
         else:
-            pass #"q"외의 다른 단어일 경우 계속 진행
+            print("20, 30, 35 외의 다른 문자를 입력했습니다. 다시 입력해주세요.")
+            pass #"q"외의 다른 단어일 경우 계속 진행()
 
