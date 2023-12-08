@@ -9,7 +9,7 @@ while True:
         num_input = input("단수:") #단수 입력
         num_first = int(num_input) #숫자로 변환
         if num_first == 30 or num_first == 35 or num_first == 20:
-            for num_second in range(9):
+            for num_second in range(1,10):
                 print("{} X {} = {}" .format(num_first,num_second,multiply(num_first,num_second)))
                 pass
             pass
