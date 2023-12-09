@@ -7,16 +7,22 @@
 ## 각각의 알파벳에 대해서, a가 처음 등장하는 위치, b가 처음 등장하는 위치, ... z가 처음 등장하는 위치를 공백으로 구분해서 출력한다.
 ## 만약, 어떤 알파벳이 단어에 포함되어 있지 않다면 -1을 출력한다. 단어의 첫 번째 글자는 0번째 위치이고, 두 번째 글자는 1번째 위치이다.
 
-list_alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y"]
+list_alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 str_input = input()
-list_output=[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
 B = len(str_input)
+list_output=[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
 
 
 for i in range(B):
     for j in range(len(list_alphabet)):
         if str_input[i] == list_alphabet[j]:
-            list_output[j] = i
+            if list_output[j] == -1:
+                list_output[j] = i
+                pass
+            else:
+                pass
             pass
-        
-print(*list_output)            
+        pass
+    pass
+for a in range(len(list_output)):
+    print(list_output[a],end = " ") 
