@@ -7,13 +7,22 @@
 # 출력
 ## 각 테스트 케이스에 대해 P를 출력한다.
 
+# T = int(input())
+# for a in range(T):
+#     R,S = input().split()
+#     list_a = []
+#     for b in range(int(R)):
+#         for c in range(len(S)):
+#             list_a.append(S[b])
+#     for d in range(len(list_a)):
+#         print(list_a[d], end = "")
+
+
 T = int(input())
 for a in range(T):
     R,S = input().split()
     list_a = []
-    for b in range(int(R)):
-        for c in range(len(S)):
-            list_a.append(S[b])
-    for d in range(len(list_a)):
-        print(list_a[d], end = "")
+    for b in range(len(S)):
+        for c in range(int(R)):
+            print("{}".format(S[b]), end = "")
     print("")
