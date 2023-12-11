@@ -16,6 +16,7 @@
 #             list_a.append(S[b])
 #     for d in range(len(list_a)):
 #         print(list_a[d], end = "")
+#     print("")
 
 
 T = int(input())

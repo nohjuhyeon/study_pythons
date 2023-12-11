@@ -44,10 +44,15 @@
 |1차원 배열|[py](./docs/codingtests/array/3052.py)|서로 다른 나머지 개수 찾기|[백준 3052](https://www.acmicpc.net/problem/3052)|
 |1차원 배열|[py](./docs/codingtests/array/10811.py)|바구니 위치 바꾸기|[백준 10811](https://www.acmicpc.net/problem/10811)|
 |1차원 배열|[py](./docs/codingtests/array/1546.py)|평균값 바꾸기|[백준 1546](https://www.acmicpc.net/problem/1546)|
-
-
-
-
-
-
-
+|문자열|[py](./docs/codingtests/str/27866.py)|문자열의 n번째 문자 찾기|[백준 27866](https://www.acmicpc.net/problem/27866)|
+|문자열|[py](./docs/codingtests/str/2743.py)|문자열의 길이 찾기|[백준 2743](https://www.acmicpc.net/problem/2743)|
+|문자열|[py](./docs/codingtests/str/9086.py)|문자열의 첫번째, 마지막 문자 찾기|[백준 9086](https://www.acmicpc.net/problem/9086)|
+|문자열|[py](./docs/codingtests/str/11654.py)|아스키 코드로 변환하기|[백준 11654](https://www.acmicpc.net/problem/11654)|
+|문자열|[py](./docs/codingtests/str/11720.py)|숫자의 합 구하기|[백준 11720](https://www.acmicpc.net/problem/11720)|
+|문자열|[py](./docs/codingtests/str/10809.py)|문자열 알파벳에서 찾기|[백준 10809](https://www.acmicpc.net/problem/10809)|
+|문자열|[py](./docs/codingtests/str/2675.py)|문자열의 반복 출력하기|[백준 2675](https://www.acmicpc.net/problem/2675)|
+|문자열|[py](./docs/codingtests/str/1152.py)|단어의 개수 출력하기|[백준 1152](https://www.acmicpc.net/problem/1152)|
+|문자열|[py](./docs/codingtests/str/2908.py)|숫자 비교하기|[백준 2908](https://www.acmicpc.net/problem/2908)|
+|문자열|[py](./docs/codingtests/str/5622.py)|다이얼 시간 구하기|[백준 5622](https://www.acmicpc.net/problem/5622)|
+|문자열|[py](./docs/codingtests/str/11718.py)|오류 날때까지 출력하기|[백준 11718](https://www.acmicpc.net/problem/117718)|
+|심화 1|[py](./docs/codingtests/hard/25083.py)|새싹 출력하기|[백준 25083](https://www.acmicpc.net/problem/25083)|
