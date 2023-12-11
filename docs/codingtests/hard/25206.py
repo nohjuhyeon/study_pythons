@@ -30,7 +30,12 @@ class_list = []
 score_list = []
 for i in range(20):
     A,B,C = input().split()
-    if C != "P":
+    if C == "P":
+        C = 0.0
+        B = 0.0
+        score_list.append(C)
+        class_list.append(B)
+    else:
         if B == "1.0":
             B = 1.0
         elif B == "2.0":
@@ -63,8 +68,9 @@ for i in range(20):
         else:
             pass
         score_list.append(C)
-    else:
-        pass
+
+else:
+    pass
 pass
 print(class_list)
 print(score_list)
