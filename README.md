@@ -56,3 +56,10 @@
 |문자열|[py](./docs/codingtests/str/5622.py)|다이얼 시간 구하기|[백준 5622](https://www.acmicpc.net/problem/5622)|
 |문자열|[py](./docs/codingtests/str/11718.py)|오류 날때까지 출력하기|[백준 11718](https://www.acmicpc.net/problem/117718)|
 |심화 1|[py](./docs/codingtests/hard/25083.py)|새싹 출력하기|[백준 25083](https://www.acmicpc.net/problem/25083)|
+|심화 1|[py](./docs/codingtests/hard/3003.py)|체스 말 개수 새기|[백준 3003](https://www.acmicpc.net/problem/3003)|
+|심화 1|[py](./docs/codingtests/hard/2444.py)|별 출력하기|[백준 2444](https://www.acmicpc.net/problem/2444)|
+|심화 1|[py](./docs/codingtests/hard/10988.py)|로꾸거|[백준 10988](https://www.acmicpc.net/problem/10988)|
+|심화 1|[py](./docs/codingtests/hard/1157.py)|단어에서 가장 많이 사용된 알파벳 구하기|[백준 1157](https://www.acmicpc.net/problem/1157)|
+|심화 1|[py](./docs/codingtests/hard/2941.py)|크로아티아 알파벳 개수 새기|[백준 2941](https://www.acmicpc.net/problem/2941)|
+|심화 1|[py](./docs/codingtests/hard/1316.py)|그룹 단어 개수 새기|[백준 1316](https://www.acmicpc.net/problem/1316)|
+|심화 1|[py](./docs/codingtests/hard/25206.py)|학점 평균 구하기|[백준 25206](https://www.acmicpc.net/problem/25206)|
