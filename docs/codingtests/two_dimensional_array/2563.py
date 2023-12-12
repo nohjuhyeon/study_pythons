@@ -11,62 +11,73 @@
 # b = 15, 7     15, 17  25, 7   25, 17
 # c = 5,2       5, 12   15, 2   15, 12
 
-a_x = 3
-a_y = 7 
-b_x = 5
-b_y = 2
+# a_x = 3
+# a_y = 7 
+# b_x = 5
+# b_y = 2
 
-if b_x >= a_x and b_x <= (a_x + 10) and b_y >= a_y and b_y <= (a_y + 10):
-    if a_x >= b_x and a_x <= (b_x + 10) and a_y >= b_y and a_y <= (b_y + 10):
-        pass
-    if (a_x + 10) >= b_x and (a_x + 10) <= (b_x + 10) and a_y >= b_y and a_y <= (b_y + 10):
-        pass
-    if a_x >= b_x and a_x <= (b_x + 10) and (a_y + 10) >= b_y and (a_y + 10) <= (b_y + 10):
-        pass
-    if (a_x + 10) >= b_x and (a_x + 10) <= (b_x + 10) and (a_y + 10) >= b_y and (a_y + 10) <= (b_y + 10):
-        pass
-    length_x = b_x - a_x
-    length_y = b_y - a_y
-    pass
-    
+# if b_x >= a_x and b_x <= (a_x + 10) and b_y >= a_y and b_y <= (a_y + 10):
+#     length_x = a_x+10 - b_x
+#     length_y = a_y+10 - b_y
+#     pass
 
-if (b_x + 10) >= a_x and (b_x + 10) <= (a_x + 10) and b_y >= a_y and b_y <= (a_y + 10):
-    if a_x >= b_x and a_x <= (b_x + 10) and a_y >= b_y and a_y <= (b_y + 10):
-        pass
-    if (a_x + 10) >= b_x and (a_x + 10) <= (b_x + 10) and a_y >= b_y and a_y <= (b_y + 10):
-        pass
-    if a_x >= b_x and a_x <= (b_x + 10) and (a_y + 10) >= b_y and (a_y + 10) <= (b_y + 10):
-        pass
-    if (a_x + 10) >= b_x and (a_x + 10) <= (b_x + 10) and (a_y + 10) >= b_y and (a_y + 10) <= (b_y + 10):
-        pass
-    length_x = b_x + 10 - a_x
-    length_y = b_y - a_y
-    pass
+# if (b_x + 10) >= a_x and (b_x + 10) <= (a_x + 10) and b_y >= a_y and b_y <= (a_y + 10):
+#     length_x = b_x + 10 - a_x
+#     length_y = a_y+ 10 - b_y
+#     pass
 
-if b_x >= a_x and b_x <= (a_x + 10) and (b_y + 10) >= a_y and (b_y + 10) <= (a_y + 10):
-    if a_x >= b_x and a_x <= (b_x + 10) and a_y >= b_y and a_y <= (b_y + 10):
-        pass
-    if (a_x + 10) >= b_x and (a_x + 10) <= (b_x + 10) and a_y >= b_y and a_y <= (b_y + 10):
-        pass
-    if a_x >= b_x and a_x <= (b_x + 10) and (a_y + 10) >= b_y and (a_y + 10) <= (b_y + 10):
-        pass
-    if (a_x + 10) >= b_x and (a_x + 10) <= (b_x + 10) and (a_y + 10) >= b_y and (a_y + 10) <= (b_y + 10):
-        pass
-    length_x = b_x - a_x
-    length_y = b_y + 10 - a_y
-    pass
+# if b_x >= a_x and b_x <= (a_x + 10) and (b_y + 10) >= a_y and (b_y + 10) <= (a_y + 10):
+#     length_x = a_x + 10 - b_x
+#     length_y = b_y + 10 - a_y
+#     pass
 
-if (b_x + 10) >= a_x and (b_x + 10) <= (a_x + 10) and (b_y + 10) >= a_y and (b_y + 10) <= (a_y + 10):
-    if a_x >= b_x and a_x <= (b_x + 10) and a_y >= b_y and a_y <= (b_y + 10):
-        pass
-    if (a_x + 10) >= b_x and (a_x + 10) <= (b_x + 10) and a_y >= b_y and a_y <= (b_y + 10):
-        pass
-    if a_x >= b_x and a_x <= (b_x + 10) and (a_y + 10) >= b_y and (a_y + 10) <= (b_y + 10):
-        pass
-    if (a_x + 10) >= b_x and (a_x + 10) <= (b_x + 10) and (a_y + 10) >= b_y and (a_y + 10) <= (b_y + 10):
-        pass
-    length_x = b_x + 10 - a_x
-    length_y = b_y + 10 - a_y
-    pass
+# if (b_x + 10) >= a_x and (b_x + 10) <= (a_x + 10) and (b_y + 10) >= a_y and (b_y + 10) <= (a_y + 10):
+#     length_x = b_x + 10 - a_x
+#     length_y = b_y + 10 - a_y
+#     pass
 
-print(length_x * length_y)
+# print(length_x * length_y)
+
+# if a_x >= b_x and a_x <= (b_x + 10) and a_y >= b_y and a_y <= (b_y + 10):
+#         pass
+#     if (a_x + 10) >= b_x and (a_x + 10) <= (b_x + 10) and a_y >= b_y and a_y <= (b_y + 10):
+#         pass
+#     if a_x >= b_x and a_x <= (b_x + 10) and (a_y + 10) >= b_y and (a_y + 10) <= (b_y + 10):
+#         pass
+#     if (a_x + 10) >= b_x and (a_x + 10) <= (b_x + 10) and (a_y + 10) >= b_y and (a_y + 10) <= (b_y + 10):
+#         pass
+
+list_x = []
+list_y = []
+N = int(input())
+for i in range(N):
+    x,y = map(int,input().split())
+    list_x.append(x)
+    list_y.append(y)
+print(list_x,list_y)
+for i in range(N):
+    for j in range(i,N):
+        a_x = list_x[i]
+        a_y = list_y[i]
+        b_x = list_x[j]
+        b_y = list_y[j]
+        if b_x >= a_x and b_x <= (a_x + 10) and b_y >= a_y and b_y <= (a_y + 10):
+            length_x = a_x+10 - b_x
+            length_y = a_y+10 - b_y
+            pass
+
+        if (b_x + 10) >= a_x and (b_x + 10) <= (a_x + 10) and b_y >= a_y and b_y <= (a_y + 10):
+            length_x = b_x + 10 - a_x
+            length_y = a_y+ 10 - b_y
+            pass
+
+        if b_x >= a_x and b_x <= (a_x + 10) and (b_y + 10) >= a_y and (b_y + 10) <= (a_y + 10):
+            length_x = a_x + 10 - b_x
+            length_y = b_y + 10 - a_y
+            pass
+
+        if (b_x + 10) >= a_x and (b_x + 10) <= (a_x + 10) and (b_y + 10) >= a_y and (b_y + 10) <= (a_y + 10):
+            length_x = b_x + 10 - a_x
+            length_y = b_y + 10 - a_y
+            pass
+        print(length_x * length_y)
