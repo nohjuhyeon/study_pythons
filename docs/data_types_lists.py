@@ -59,3 +59,9 @@ for num_count in [0,2,4]:
     pass
 print("End program!")
 
+#list 초기화 방식
+list_fruits_primitive = ["melon", "apple", "banana", "cherry"]
+tuple_fruits = ("melon", "apple", "banana", "cherry")                       #튜플은 내용을 변경할 수 없음 
+list_fruits_constructor = list(("melon", "apple", "banana", "cherry"))
+
+pass
