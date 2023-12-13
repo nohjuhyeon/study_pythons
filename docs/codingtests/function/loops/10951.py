@@ -7,10 +7,3 @@
 # 출력
 ## 각 테스트 케이스마다 A+B를 출력한다.
 
-A,B = map(int, input().split())        
-while True:
-    try:
-        print(A + B)
-        A,B = map(int, input().split())
-    except:
-        break

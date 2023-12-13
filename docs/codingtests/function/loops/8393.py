@@ -6,12 +6,3 @@
 # 출력
 ## 1부터 n까지 합을 출력한다.
 
-A = int(input())
-B = 0
-C = 0
-while B < A:
-    B += 1
-    C += B
-    if B >= A:
-        pass
-print(C)

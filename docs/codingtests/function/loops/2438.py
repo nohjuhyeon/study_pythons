@@ -6,13 +6,3 @@
 # 출력
 ## 첫째 줄부터 N번째 줄까지 차례대로 별을 출력한다.
 
-A = int(input())
-B = 0
-x = ""
-while B < A:
-    B = B + 1
-    x = "*{}".format(x)
-    print(x)
-    pass
-    if B > A:
-        pass

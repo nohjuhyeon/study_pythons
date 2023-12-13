@@ -8,13 +8,3 @@
 # 출력
 ## 혜아가 N바이트 정수까지 저장할 수 있다고 생각하는 정수 자료형의 이름을 출력하여라.
 
-N = int(input())
-X = int(N/4)
-Y = 0
-long = "int"
-while Y < X:
-    Y = Y + 1
-    long = "long " + long 
-    if Y > X:
-        pass
-print(long )

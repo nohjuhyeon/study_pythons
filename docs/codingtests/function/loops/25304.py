@@ -13,18 +13,3 @@
 # 출력
 ## 구매한 물건의 가격과 개수로 계산한 총 금액이 영수증에 적힌 총 금액과 일치하면 Yes를 출력한다. 일치하지 않는다면 No를 출력한다.
 
-X = int(input())
-N = int(input())
-Y = 0
-D = 0
-while Y < N:
-    Y = Y + 1
-    A,B = map(int, input() .split())
-    C = A * B
-    D += C
-    if Y >= N:
-        pass
-if X == D:
-    print("Yes")
-else:
-    print("No")
