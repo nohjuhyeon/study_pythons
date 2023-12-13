@@ -8,3 +8,31 @@
 # 출력
 ## 첫째 줄에 종료되는 시각의 시와 분을 공백을 사이에 두고 출력한다. (단, 시는 0부터 23까지의 정수, 분은 0부터 59까지의 정수이다. 디지털 시계는 23시 59분에서 1분이 지나면 0시 0분이 된다.)
 
+class Question:
+    def __init__(self):
+        list_input = list(map(int, input().split()))                            # list_input = 현재 시각을 시와 분으로 입력 받아 리스트로 지정
+        self.input_hour = list_input[0]                                         # input_hour = 입력한 시각의 시
+        self.input_minute = list_input[1]                                       # input_minute = 입력한 시간의 분
+        self.time_input =int(input())                                           # time_input = 요리하는 데 필요한 시간
+        self.time_hour = int(self.time_input/60)                                # time_hour, time_minute = time_input을 시와 분으로 나눠서 변수 지정
+        self.time_minute = (self.time_input%60)
+        pass
+
+    def time(self):
+        if self.input_minute + self.time_minute < 60:                           # 현재 시각의 분과 필요한 시간의 분의 합이 60이 안 될 경우
+            output_hour = self.input_hour + self.time_hour                      # 종료되는 시각의 시 = 현재 시각의 시 + 요리하는 데 필요한 시간의 시
+            output_minute = self.input_minute + self.time_minute                # 종료되는 시각의 분 = 현재 시각의 분 + 요리하는데 필요한 시간의 분
+        elif self.input_minute + self.time_minute == 60:                        # 현재 시각의 분과 필요한 시간의 분의 합이 60일 경우
+            output_hour = self.input_hour + self.time_hour + 1                  # 종료되는 시각의 시 = 현재 시각의 시 + 요리하는 데 필요한 시간의 시 + 1
+            output_minute = 0                                                   # 종료되는 시각의 분 = 0
+        else:                                                                   # 현재 시각의 분과 필요한 시간의 분의 합이 60이 넘을 경우
+            output_hour = self.input_hour + self.time_hour + 1                  # 종료되는 시각의 시 = 현재 시각의 시 + 요리하는 데 필요한 시간의 시 + 1
+            output_minute = self.input_minute + self.time_minute - 60           # 종료되는 시각의 분 = 현재 시각의 분 + 요리하는데 필요한 시간의 분 - 60
+        pass
+        if output_hour >= 24:                                                   # 종료되는 시각의 시가 24가 넘을 경우
+            output_hour = output_hour - 24                                      # 종료되는 시각의 시 - 24
+        print("{} {}".format(output_hour, output_minute))                       # 종료되는 시각 출력
+
+quest = Question()
+
+quest.time()

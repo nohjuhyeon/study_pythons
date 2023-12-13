@@ -15,13 +15,13 @@
 |입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/11382.py)|[fuction.py](./docs/codingtests/function/input_output/11382.py)|3가지 변수를 이용한 덧셈 출력|[백준 11382](https://www.acmicpc.net/problem/11382)|
 |입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10171.py)|[fuction.py](./docs/codingtests/function/input_output/10171.py)|고양이 모양 출력|[백준 10171](https://www.acmicpc.net/problem/10171)|
 |입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10172.py)|[fuction.py](./docs/codingtests/function/input_output/10172.py)|개 모양 출력|[백준 10172](https://www.acmicpc.net/problem/10172)|
-|조건문|[non_fuction.py](./docs/codingtests/non_function/if/1330.py)||두 수 비교하기|[백준 1330](https://www.acmicpc.net/problem/1330)|
-|조건문|[non_fuction.py](./docs/codingtests/non_function/if/9498.py)||시험 성적 등급 매기기|[백준 9498](https://www.acmicpc.net/problem/9498)|
-|조건문|[non_fuction.py](./docs/codingtests/non_function/if/2753.py)||윤년 찾기|[백준 2753](https://www.acmicpc.net/problem/2753)|
-|조건문|[non_fuction.py](./docs/codingtests/non_function/if/14681.py)||사분면 고르기|[백준 14681](https://www.acmicpc.net/problem/14681)|
-|조건문|[non_fuction.py](./docs/codingtests/non_function/if/2884.py)||알람 시계 설정하기|[백준 2884](https://www.acmicpc.net/problem/2884)|
-|조건문|[non_fuction.py](./docs/codingtests/non_function/if/2525.py)||오븐 시계 설정하기|[백준 2525](https://www.acmicpc.net/problem/2525)|
-|조건문|[non_fuction.py](./docs/codingtests/non_function/if/2480.py)||주사위 세개|[백준 2480](https://www.acmicpc.net/problem/2480)|
+|조건문|[non_fuction.py](./docs/codingtests/non_function/if/1330.py)|[fuction.py](./docs/codingtests/function/if/1330.py)|두 수 비교하기|[백준 1330](https://www.acmicpc.net/problem/1330)|
+|조건문|[non_fuction.py](./docs/codingtests/non_function/if/9498.py)|[fuction.py](./docs/codingtests/function/if/9498.py)|시험 성적 등급 매기기|[백준 9498](https://www.acmicpc.net/problem/9498)|
+|조건문|[non_fuction.py](./docs/codingtests/non_function/if/2753.py)|[fuction.py](./docs/codingtests/function/if/2753.py)|윤년 찾기|[백준 2753](https://www.acmicpc.net/problem/2753)|
+|조건문|[non_fuction.py](./docs/codingtests/non_function/if/14681.py)|[fuction.py](./docs/codingtests/function/if/14681.py)|사분면 고르기|[백준 14681](https://www.acmicpc.net/problem/14681)|
+|조건문|[non_fuction.py](./docs/codingtests/non_function/if/2884.py)|[fuction.py](./docs/codingtests/function/if/2884.py)|알람 시계 설정하기|[백준 2884](https://www.acmicpc.net/problem/2884)|
+|조건문|[non_fuction.py](./docs/codingtests/non_function/if/2525.py)|[fuction.py](./docs/codingtests/function/if/2525.py)|오븐 시계 설정하기|[백준 2525](https://www.acmicpc.net/problem/2525)|
+|조건문|[non_fuction.py](./docs/codingtests/non_function/if/2480.py)|[fuction.py](./docs/codingtests/function/if/2480.py)|주사위 세개|[백준 2480](https://www.acmicpc.net/problem/2480)|
 |반복문|[non_fuction.py](./docs/codingtests/non_function/loops/2739.py)||구구단 만들기|[백준 2739](https://www.acmicpc.net/problem/2739)|
 |반복문|[non_fuction.py](./docs/codingtests/non_function/loops/10950.py)||A + B|[백준 10950](https://www.acmicpc.net/problem/10950)|
 |반복문|[non_fuction.py](./docs/codingtests/non_function/loops/8393.py)||n까지의 합|[백준 8393](https://www.acmicpc.net/problem/8393)|
