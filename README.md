@@ -1,20 +1,20 @@
-### 코딩 테스트(NON_FUNCTION)
+### 코딩 테스트
 
 |구분|소스(non_function)|소스(function)|문제설명|출처|
 |--|--|--|--|--|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/2557.py)||Hello World!를 출력|[백준 2557](https://www.acmicpc.net/problem/2557)|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/1000.py)||A+B를 출력|[백준 1000](https://www.acmicpc.net/problem/1000)|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/1001.py)||A-B를 출력|[백준 1001](https://www.acmicpc.net/problem/1001)|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10998.py)||A X B를 출력|[백준 10998](https://www.acmicpc.net/problem/10998)|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/1008.py)||A/B를 출력|[백준 1008](https://www.acmicpc.net/problem/1008)|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10869.py)||사칙연산을 출력|[백준 10869](https://www.acmicpc.net/problem/10869)|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10926.py)||입력값 뒤에 문자 출력|[백준 10926](https://www.acmicpc.net/problem/10926)|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/18108.py)||입력한 숫자값을 변환하여 출력|[백준 18108](https://www.acmicpc.net/problem/18108)|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10430.py)||3가지 변수를 이용하여 나머지를 구하는 값 출력 |[백준 10430](https://www.acmicpc.net/problem/10430)|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/2588.py)||세자리 수의 곱셈 출력|[백준 2588](https://www.acmicpc.net/problem/2588)|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/11382.py)||3가지 변수를 이용한 덧셈 출력|[백준 11382](https://www.acmicpc.net/problem/11382)|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10171.py)||고양이 모양 출력|[백준 10171](https://www.acmicpc.net/problem/10171)|
-|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10172.py)||개 모양 출력|[백준 10172](https://www.acmicpc.net/problem/10172)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/2557.py)|[fuction.py](./docs/codingtests/function/input_output/2557.py)|Hello World!를 출력|[백준 2557](https://www.acmicpc.net/problem/2557)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/1000.py)|[fuction.py](./docs/codingtests/function/input_output/1000.py)|A+B를 출력|[백준 1000](https://www.acmicpc.net/problem/1000)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/1001.py)|[fuction.py](./docs/codingtests/function/input_output/1001.py)|A-B를 출력|[백준 1001](https://www.acmicpc.net/problem/1001)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10998.py)|[fuction.py](./docs/codingtests/function/input_output/10998.py)|A X B를 출력|[백준 10998](https://www.acmicpc.net/problem/10998)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/1008.py)|[fuction.py](./docs/codingtests/function/input_output/1008.py)|A/B를 출력|[백준 1008](https://www.acmicpc.net/problem/1008)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10869.py)|[fuction.py](./docs/codingtests/function/input_output/100869.py)|사칙연산을 출력|[백준 10869](https://www.acmicpc.net/problem/10869)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10926.py)|[fuction.py](./docs/codingtests/function/input_output/10926.py)|입력값 뒤에 문자 출력|[백준 10926](https://www.acmicpc.net/problem/10926)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/18108.py)|[fuction.py](./docs/codingtests/function/input_output/18108.py)|입력한 숫자값을 변환하여 출력|[백준 18108](https://www.acmicpc.net/problem/18108)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10430.py)|[fuction.py](./docs/codingtests/function/input_output/10430.py)|3가지 변수를 이용하여 나머지를 구하는 값 출력 |[백준 10430](https://www.acmicpc.net/problem/10430)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/2588.py)|[fuction.py](./docs/codingtests/function/input_output/2588.py)|세자리 수의 곱셈 출력|[백준 2588](https://www.acmicpc.net/problem/2588)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/11382.py)|[fuction.py](./docs/codingtests/function/input_output/11382.py)|3가지 변수를 이용한 덧셈 출력|[백준 11382](https://www.acmicpc.net/problem/11382)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10171.py)|[fuction.py](./docs/codingtests/function/input_output/10171.py)|고양이 모양 출력|[백준 10171](https://www.acmicpc.net/problem/10171)|
+|입출력과 사칙연산|[non_fuction.py](./docs/codingtests/non_function/input_output/10172.py)|[fuction.py](./docs/codingtests/function/input_output/10172.py)|개 모양 출력|[백준 10172](https://www.acmicpc.net/problem/10172)|
 |조건문|[non_fuction.py](./docs/codingtests/non_function/if/1330.py)||두 수 비교하기|[백준 1330](https://www.acmicpc.net/problem/1330)|
 |조건문|[non_fuction.py](./docs/codingtests/non_function/if/9498.py)||시험 성적 등급 매기기|[백준 9498](https://www.acmicpc.net/problem/9498)|
 |조건문|[non_fuction.py](./docs/codingtests/non_function/if/2753.py)||윤년 찾기|[백준 2753](https://www.acmicpc.net/problem/2753)|
