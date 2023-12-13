@@ -8,32 +8,17 @@
 # 출력
 ## 점 (x, y)의 사분면 번호(1, 2, 3, 4 중 하나)를 출력한다.
 
-# x = int(input())
-# y = int(input())
-
-# if x > 0:
-#     if y > 0:
-#         print(1)
-#     else :
-#         print(4)
-# else :
-#     if y > 0:
-#         print(2)
-#     else :
-#         print(3)
-
-def quater(x,y):
-    if x > 0:
-        if y > 0:
-            print(1)
-        else :
-            print(4)
-    else :
-        if y > 0:
-            print(2)
-        else :
-            print(3)
-
 x = int(input())
 y = int(input())
-quater(x,y)
+
+if x > 0:
+    if y > 0:
+        print(1)
+    else :
+        print(4)
+else :
+    if y > 0:
+        print(2)
+    else :
+        print(3)
+

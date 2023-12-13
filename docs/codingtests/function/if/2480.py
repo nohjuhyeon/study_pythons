@@ -11,19 +11,3 @@
 # 출력
 ## 첫째 줄에 게임의 상금을 출력 한다.
 
-a,b,c = map(int, input() .split())
-if a == b and b == c and a == c:
-    print(10000 + a *1000)
-    pass
-elif a != b and a != c and b != c:
-    print(max(a,b,c)*100)
-    pass
-elif a == b and b != c:
-    print(a*100 + 1000)
-    pass
-elif b == c and a != c:
-    print(b*100 + 1000)
-    pass
-elif a == c and b != c:
-    print(a*100 + 1000)
-    pass
