@@ -6,3 +6,20 @@
 # 출력
 ## 1부터 n까지 합을 출력한다.
 
+
+class quest():
+    def __init__(self):
+        self.repeat = int(input())
+
+    def sum(self):
+        sum = 0
+        for i in range(self.repeat):
+            num_i = i + 1
+            sum = sum + num_i
+        return sum
+    
+
+Quest = quest()
+
+print(Quest.sum())
+
