@@ -11,9 +11,16 @@
 ## 첫 줄에 테스트케이스의 개수 T가 주어진다. T는 최대 1,000,000이다. 다음 T줄에는 각각 두 정수 A와 B가 주어진다. A와 B는 1 이상, 1,000 이하이다.
 # 출력
 ## 각 테스트케이스마다 A+B를 한 줄에 하나씩 순서대로 출력한다.
-import sys
-A = int(input())
-for D in range(A):
-    B, C = map(int, sys.stdin.readline() .split())
-    D = B + C 
-    print(D)
+import sys                                                              # sys 불러오기
+class quest():
+    def __init__(self): 
+        self.A = int(input())                                           # 입력한 반복횟수 self.A로 지정
+
+    def sum(self):
+        for D in range(self.A):                                         # self.A 만큼 반복
+            B, C = map(int, sys.stdin.readline() .split())              # 더할 값 B,C 입력
+            D = B + C                                                   # 덧셈
+            print(D)                                
+
+Quest = quest()
+Quest.sum()

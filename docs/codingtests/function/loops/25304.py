@@ -13,3 +13,21 @@
 # 출력
 ## 구매한 물건의 가격과 개수로 계산한 총 금액이 영수증에 적힌 총 금액과 일치하면 Yes를 출력한다. 일치하지 않는다면 No를 출력한다.
 
+class quest():
+    def __init__(self):
+        self.num_X = int(input())                                           # 총액 입력 변수 설정
+        self.num_N = int(input())                                           # 물건 개수 변수 설정
+        self.num_sum = 0
+    def sum(self):
+        for i in range(self.num_N):                                        # 물건 개수 만큼 반복 입력
+            num_a,num_b = map(int,input().split())                         # 금액과 개수 입력
+            self.num_sum = num_a * num_b + self.num_sum                    # 금액 X 가격을 총액에 더하기
+    def check(self):
+        if self.num_sum == self.num_X:                                     # num_X = num_sum일 경우 Yes, 아닐 경우 No 출력
+            print("Yes")
+        else:
+            print("No")
+
+Quest = quest()
+Quest.sum()
+Quest.check()

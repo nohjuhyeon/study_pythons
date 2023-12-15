@@ -8,3 +8,14 @@
 # 출력
 ## 혜아가 N바이트 정수까지 저장할 수 있다고 생각하는 정수 자료형의 이름을 출력하여라.
 
+class quest():
+    def __init__(self):
+        self.num_N = int(input())                       # 정수 N 입력                                   
+    def printstr(self):
+        num_long = int(self.num_N/4)                    # 정수 N의 몫 num_long으로 지정
+        for i in range(num_long):                       # num_long의 개수만큼 long 출력
+            print("long",end = " ")
+        print("int")                                    # 마지막에 int 출력
+
+Quest=quest()
+Quest.printstr()
