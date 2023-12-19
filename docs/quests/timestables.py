@@ -3,7 +3,7 @@
 # 예. 5 * 1 = 5
 #     5 * 2 = 10
 
-num_first = int(input(3))
+num_first = int(input())
 num_second = 0
 while num_second < 9 :
     pass
