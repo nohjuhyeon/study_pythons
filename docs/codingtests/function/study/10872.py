@@ -6,13 +6,44 @@
 # 출력
 ## 첫째 줄에 N!을 출력한다.
 
-class quest:
-    def __init__(self):
-        self.num_input = int(input())                                       # 정수 입력
-    def factorial(self):
-        num_factorial = 1                                                   # num_factorial을 기본 값(1)으로 설정
-        for i in range(self.num_input):                                     # num_input만큼 반복
-            num_factorial = num_factorial * (i + 1)                         # num_factorial를 1부터 num_input까지 순서대로 곱셈
-        return num_factorial                                                # 곱셈 결과 return
-Quest = quest()                                                             # class에 연결하는 변수 설정
-print(Quest.factorial())                                                    # 곱셈 결과 출력 
+## 알고리즘 작성
+# 1. 계산할 값(N) 입력 
+# 2. for 문을 시작하기 전에 기본값(1)을 설정
+# 3. 1부터 N까지 계속 곱하는 반복문 필요    -> for i in range(N):
+# 4. 반복문이 진행될수록 곱할 값은 1이 증가
+# 5. 곱셈 진행
+# 6. 결과값 출력
+
+
+## 1번째 방법
+num_repeat = int(input())                                       # 1. 계산할 값(N) 입력
+a = 0                                       
+b = 1                                                           # 2. for 문을 시작하기 전에 기본값(1)을 설정
+for i in range(num_repeat):                                     # 3. 1부터 N까지 계속 곱하는 반복문 필요    -> for i in range(num_repeat):
+    a = a + 1                                                   # 4. 반복문이 진행될수록 곱할 값은 1이 증가
+    b = b*a                                                     # 5. 곱셈 진행
+    pass
+print(b)                                                        # 6. 결과값 출력
+
+## 2번째 방법
+# num_input = int(input())                                                   # 1. 계산할 값(N) 입력
+# num_factorial = 1                                                          # 2. for 문을 시작하기 전에 기본값(1)을 설정
+# for i in range(num_input):                                                 # 3. 1부터 N까지 계속 곱하는 반복문 필요    -> for i in range(num_input):
+#     num_factorial = num_factorial * (i + 1)                                # 4. 반복문이 진행될수록 곱할 값은 1이 증가: i + 1       # 5. 곱셈 진행
+#     pass
+# print(num_factorial)                                                       # 6. 결과값 출력
+
+
+## 3번째 방법
+# class quest:
+#     def __init__(self):                                                     # class 내에서 사용할 변수 지정
+#         self.num_input = int(input())                                       # 1. 계산할 값(N) 입력
+#     def factorial(self):                                                    # 계산하는 함수 작성
+#         num_factorial = 1                                                   # 2. for 문을 시작하기 전에 기본값(1)을 설정
+#         for i in range(self.num_input):                                     # 3. 1부터 N까지 계속 곱하는 반복문 필요    -> for i in range(num_input):
+#             num_factorial = num_factorial * (i + 1)                         # 4. 반복문이 진행될수록 곱할 값은 1이 증가: i + 1       # 5. 곱셈 진행 
+#             pass
+#         return num_factorial                                                # 결과값 return
+# Quest = quest()                                                             
+# print(Quest.factorial())                                                    # 6. 결과값 출력
+
