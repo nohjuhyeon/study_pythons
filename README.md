@@ -1,3 +1,9 @@
+<details >
+  <summary>Summary</summary>
+  <p>추가적인 정보가 여기에 표시됩니다.</p>
+</details>
+
+  
 ### 코딩 테스트
 
 |구분|소스(non_function)|소스(function)|문제설명|출처|
@@ -67,3 +73,7 @@
 |2차원 배열|[non_fuction.py](./docs/codingtests/non_function/two_dimensional_array/2566.py)||최댓값과 위치 찾기|[백준 2566](https://www.acmicpc.net/problem/2566)|
 |2차원 배열|[non_fuction.py](./docs/codingtests/non_function/two_dimensional_array/10798.py)||세로 읽기|[백준 10798](https://www.acmicpc.net/problem/10798)|
 |2차원 배열|[non_fuction.py](./docs/codingtests/non_function/two_dimensional_array/2563.py)||색종이 넓이 구하기|[백준 2563](https://www.acmicpc.net/problem/2563)|
+
+### 코드 블럭
+~$ python ./solving_problems_functions.py
+~$ python ./solving_problems_classes.py
