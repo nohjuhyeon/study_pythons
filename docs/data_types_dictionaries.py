@@ -13,11 +13,10 @@ dict_carinfor = {
 }
 dict_carinfor["model"]
 print('dict_carinfor 있는 model name : {}'.format(dict_carinfor))
-
+dict_carinfor["user_name"] = "조유경"
+print(dict_carinfor)
 # # key 로 인한 값 변경
 # dict_carinfor['year'] = 1970
 # # 새로운 key와 값 정의
-# dict_carinfor['color'] = "red"
-# dict_carinfor["color"] = ["red", "yellow", "brown"]
 # pass
 

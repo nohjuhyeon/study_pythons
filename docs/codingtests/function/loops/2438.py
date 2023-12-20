@@ -6,3 +6,14 @@
 # 출력
 ## 첫째 줄부터 N번째 줄까지 차례대로 별을 출력한다.
 
+class quest:
+    def __init__(self):
+        self.num_input = int(input())
+    def star(self):
+        for i in range(self.num_input):
+            for j in range(i+1):
+                print("*",end="")
+            print("")
+
+Quest = quest()
+Quest.star()
