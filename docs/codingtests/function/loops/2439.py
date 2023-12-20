@@ -7,5 +7,19 @@
 # 출력
 ## 첫째 줄부터 N번째 줄까지 차례대로 별을 출력한다.
 
-
-
+class quest:
+    def __init__(self):
+        self.num_input = int(input())                              # 반복 횟수 입력 
+    def star(self):
+        list_star = []
+        for i in range(self.num_input):                           # 반복 횟수 만큼 출력
+                list_star.append(" ")                             # 공백으로 구성되어 있는 리스트 작성
+        for i in range(self.num_input):
+            list_star[self.num_input - i - 1] = "*"               # 반복 될 떄마다 뒤에서부터 "*"추가 
+            for j in range(len(list_star)):                       # 리스트 출력
+                  print(list_star[j],end=(""))
+                  pass
+            print("")
+            
+Quest = quest()
+Quest.star()
