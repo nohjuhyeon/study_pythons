@@ -8,11 +8,19 @@
 ## 첫째 줄부터 아홉 번째 줄까지 한 줄에 하나의 자연수가 주어진다. 주어지는 자연수는 100 보다 작다.
 # 출력
 ## 첫째 줄에 최댓값을 출력하고, 둘째 줄에 최댓값이 몇 번째 수인지를 출력한다.
-list_i = []
-for i in range(9):
-    list_i.append(int(input()))
-    pass
 
-print(max(list_i))
-x = list_i.index(max(list_i)) + 1
-print(x)                  
+
+class quest:
+    def __init__(self):
+        self.num_input = int(input())                                   # 반복횟수 입력
+        self.list_input = list(input().split())                         # list 입력
+        self.num_check = input()                                        # 찾을 번호 입력
+        self.num_count = 0                                              # 카운트 기본값 설정
+    def count(self):
+        for i in range(self.num_input):                                 # 반복횟수만큼 반복
+            if self.num_check == self.list_input[i]:                    # 찾을 번호가 list에 들어 있는 번호와 동일할 경우
+                self.num_count += 1                                     # 카운트 + 1
+        print(self.num_count)
+
+Quest = quest()
+Quest.count()
