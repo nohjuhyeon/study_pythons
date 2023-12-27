@@ -6,3 +6,16 @@
 # 출력
 ## 첫째 줄에 주어진 정수 N개의 최솟값과 최댓값을 공백으로 구분해 출력한다.
 
+class quest:
+    def __init__(self,repeat,check):
+        self.num_repeat = repeat                                            # 반복 횟수 입력
+        self.list_check = check                                             # 리스트 지정
+    def max_min(self):
+        list_print = [min(self.list_check),max(self.list_check)]            # 최소값, 최대값 지정
+        print(*list_print)                                                  # 리스트 출력
+
+repeat = int(input())
+check = list(map(int,input().split()))
+
+Quest = quest(repeat,check)
+Quest.max_min()
