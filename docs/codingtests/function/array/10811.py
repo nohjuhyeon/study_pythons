@@ -11,3 +11,22 @@
 ## 모든 순서를 바꾼 다음에, 가장 왼쪽에 있는 바구니부터 바구니에 적혀있는 순서를 공백으로 구분해 출력한다.
 
 
+class quest:
+    def __init__(self):
+        self.num_A,self.num_B = map(int,input().split())                    # 바구니 갯수와 반복횟수 입력
+        self.list_reverse = []                                              # 바구니 리스트 변수 지정
+    def basket_reverse(self):
+        for i in range(self.num_A):                                         # 바구니 갯수 만큼 반복
+            self.list_reverse.append(i+1)                                   # 바구니 숫자 지정
+        for i in range(self.num_B):                                         # 반복 횟수만큼 반복
+            num_C,num_D = map(int,input().split())                          # 위치 바꿀 범위 지정
+            repeat = int((num_D - num_C + 1)/2)                             # 반복 횟수 변수 설정
+            for j in range(repeat):                                         # 반복 횟수 만큼 반복
+                self.list_reverse[num_C-1+j],self.list_reverse[num_D-1-j] = self.list_reverse[num_D-1-j],self.list_reverse[num_C-1+j]
+                pass
+            pass
+        
+        print(*self.list_reverse)
+
+Quest =quest()
+Quest.basket_reverse()

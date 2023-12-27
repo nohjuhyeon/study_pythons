@@ -11,3 +11,19 @@
 ## 1번 바구니부터 N번 바구니에 들어있는 공의 번호를 공백으로 구분해 출력한다. 공이 들어있지 않은 바구니는 0을 출력한다.
 
 
+class quest:
+    def __init__(self):
+        self.num_A,self.num_B = map(int,input().split())                # 바구니 갯수와 기회 입력
+    def basketball(self):
+        list_basket = []                                                # 바구니 리스트 변수 지정
+        for i in range(self.num_A):                                     # self.num_A 만큼 리스트에 바구니 추가
+            list_basket.append(0)
+        for i in range(self.num_B):                                     # 기회 만큼 반복
+            num_C,num_D,num_E = map(int,input().split())                # 시작, 끝, 넣을 공 입력
+            for j in range(num_C-1,num_D):                              # num_C-1 부터 num_D까지 반복
+                list_basket[j] = num_E                                  # num_E로 변경
+        pass
+        print(*list_basket)
+
+Quest= quest()
+Quest.basketball()

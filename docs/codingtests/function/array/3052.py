@@ -7,3 +7,16 @@
 # 출력
 ## 첫째 줄에, 42로 나누었을 때, 서로 다른 나머지가 몇 개 있는지 출력한다.
 
+class quest:
+    def __init__(self):
+        self.extra_list = []                                    # 나머지 리스트 작성
+        for i in range(10):                                     # 10번 반복
+            self.num_input = int(input())%42                    # 입력 값의 나머지 변수 지정
+            self.extra_list.append(self.num_input)              # 리스트에 추가
+    def various(self):
+        self.extra_list= set(self.extra_list)                   # 리스트를 set로 변경해서 중복 값 제거
+        self.extra_list = list(self.extra_list)                 # 다시 리스트 화
+        print(len(self.extra_list))                             # 리스트의 개수 출력
+
+Quest =quest()
+Quest.various()

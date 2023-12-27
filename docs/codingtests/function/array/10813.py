@@ -10,3 +10,17 @@
 # 출력
 ## 1번 바구니부터 N번 바구니에 들어있는 공의 번호를 공백으로 구분해 출력한다.
 
+class quest:
+    def __init__(self):
+        self.num_A,self.num_B = map(int,input().split())                                            # 바구니 갯수와 반복 횟수 입력
+        self.list_basket = []                                                                       # 바구리 리스트 변수 지정
+    def change_basket(self):
+        for i in range(self.num_A):                                                                 # 바구리에 번호 부여
+            self.list_basket.append(i+1)
+        for i in range(self.num_B):                                                 
+            num_C,num_D = map(int,input().split())                                                  # 바꿀 바구니 번호 입력
+            self.list_basket[num_C-1],self.list_basket[num_D-1] = self.list_basket[num_D-1],self.list_basket[num_C-1]       # 입력한 바구니끼리 교환
+        print(*self.list_basket)
+
+Quest= quest()
+Quest.change_basket()
