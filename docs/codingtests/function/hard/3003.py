@@ -9,9 +9,12 @@
 # 출력
 ## 첫째 줄에 입력에서 주어진 순서대로 몇 개의 피스를 더하거나 빼야 되는지를 출력한다. 만약 수가 양수라면 동혁이는 그 개수 만큼 피스를 더해야 하는 것이고, 음수라면 제거해야 하는 것이다.
 
-answer_list = [1,1,2,2,2,8]
-input_list = list(map(int, input().split()))
+list_chess = [1,1,2,2,2,8]                              # 기본 체스 리스트 변수 지정
+input_chess = list(map(int,input().split()))            # 제거할 체스 리스트 입력
+def minus_chess(list_chess,input_chess):                
+    for i in range(len(list_chess)):                    # 리스트의 길이만큼 반복
+        list_chess[i] = list_chess[i] - input_chess[i]  # 입력한 리스트만큼 -
+    return list_chess
 
-for i in range(len(answer_list)):
-    input_list[i] = answer_list[i] - input_list[i]
-print(*input_list)
+after_list_chess = minus_chess(list_chess,input_chess)
+print(*after_list_chess)

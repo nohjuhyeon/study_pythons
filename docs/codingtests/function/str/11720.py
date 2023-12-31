@@ -6,9 +6,14 @@
 # 출력
 ## 입력으로 주어진 숫자 N개의 합을 출력한다.
 
-A = int(input())
-B = input()
-C = 0
-for i in range(A):
-    C = C + int(B[i])
-print(C)
+def sum_num(num_repeat,num_list):
+    sum_list = 0                                    # list의 합 변수 지정
+    for i in range(num_repeat):                     # 반복횟수 만큼 반복
+        sum_list = sum_list + int(num_list[i])      # list 내에 있는 값들을 더함
+    return sum_list
+
+num_repeat = int(input())
+num_list = list(input())
+
+sum_list = sum_num(num_repeat,num_list)
+print(sum_list)

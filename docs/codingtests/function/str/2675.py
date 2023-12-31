@@ -7,23 +7,14 @@
 # 출력
 ## 각 테스트 케이스에 대해 P를 출력한다.
 
-# T = int(input())
-# for a in range(T):
-#     R,S = input().split()
-#     list_a = []
-#     for b in range(int(R)):
-#         for c in range(len(S)):
-#             list_a.append(S[b])
-#     for d in range(len(list_a)):
-#         print(list_a[d], end = "")
-#     print("")
+repeat_num = int(input())
 
+def repeat_print(repeat_num):
+    for i in range(repeat_num):
+        str_input = input().split()                 # 문자열 반복 횟수와 문자 입력
+        for i in range(len(str_input[1])):          # 문자열 만큼 반복
+            for j in range(int(str_input[0])):      # 문자열 반복 횟수만큼 반복
+                print(str_input[1][i],end="")       # 출력 
+        print("")
 
-T = int(input())
-for a in range(T):
-    R,S = input().split()
-    list_a = []
-    for b in range(len(S)):
-        for c in range(int(R)):
-            print("{}".format(S[b]), end = "")
-    print("")
+repeat_print(repeat_num)

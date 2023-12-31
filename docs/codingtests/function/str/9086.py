@@ -6,8 +6,11 @@
 # 출력
 ## 각 테스트 케이스에 대해서 주어진 문자열의 첫 글자와 마지막 글자를 연속하여 출력한다.
 
-A = int(input())
+def str_first_last(repeat_num):
+    for i in range(repeat_num):             # 반복횟수만큼 반복
+        str_input = input()                 # 문자 입력
+        print("{}{}".format(str_input[0],str_input[-1]))    #문자의 첫번쨰, 마지막 출력
 
-for a in range(A):
-    B = input()
-    print("{}{}".format(B[0],B[-1]))
+
+repeat_num = int(input())
+str_first_last(repeat_num)

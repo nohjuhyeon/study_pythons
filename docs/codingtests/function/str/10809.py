@@ -9,20 +9,17 @@
 
 list_alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 str_input = input()
-B = len(str_input)
-list_output=[-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
 
+def str_index(str_input,list_alphabet):
+    for i in range(len(list_alphabet)):                 # 알파벳 리스트 만큼 반복
+        for j in range(len(str_input)):                 # 문자열 길이만큼 반복
+            if list_alphabet[i] == str_input[j]:        # 문자열이 알파벳 리스트 안에 있을 경우 알파벳 리스트의 값을 인덱스번호로 변경
+                list_alphabet[i] = j                    
+                pass
+                break                                   # 반복문 종료
+        else:                                           # 아닐 경우 -1로 변경
+            list_alphabet[i] = -1
+    return list_alphabet
 
-for i in range(B):
-    for j in range(len(list_alphabet)):
-        if str_input[i] == list_alphabet[j]:
-            if list_output[j] == -1:
-                list_output[j] = i
-                pass
-            else:
-                pass
-            pass
-        pass
-    pass
-for a in range(len(list_output)):
-    print(list_output[a],end = " ") 
+str_index(str_input,list_alphabet)
+print(*list_alphabet)

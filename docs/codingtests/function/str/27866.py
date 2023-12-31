@@ -7,6 +7,11 @@
 # 출력
 ## S의 i번째 글자를 출력한다.
 
-S = input()
-i = int(input()) - 1
-print(S[i])
+def str_index_find(str_input):
+    index = int(input()) - 1            # 추출할 문자의 인덱스 입력
+    str_index = str_input[index]        # 문자 추출₩                                                    
+    return str_index
+
+str_input = input()
+str_index = str_index_find(str_input)
+print(str_index)

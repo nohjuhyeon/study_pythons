@@ -6,5 +6,10 @@
 # 출력
 ## 입력으로 주어진 글자의 아스키 코드 값을 출력한다.
 
-A = input()
-print(ord(A))
+str_input = input()
+def ASCII_code(str_input):
+    ord_input = ord(str_input)              # 아스키 코드 값으로 변경
+    return ord_input
+
+ord_input = ASCII_code(str_input)
+print(ord_input)

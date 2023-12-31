@@ -7,3 +7,19 @@
 ## 첫째 줄에 시험 본 과목의 개수 N이 주어진다. 이 값은 1000보다 작거나 같다. 둘째 줄에 세준이의 현재 성적이 주어진다. 이 값은 100보다 작거나 같은 음이 아닌 정수이고, 적어도 하나의 값은 0보다 크다.
 # 출력
 ## 첫째 줄에 새로운 평균을 출력한다. 실제 정답과 출력값의 절대오차 또는 상대오차가 10-2 이하이면 정답이다.
+
+len_class = int(input())                            # 과목의 개수 입력
+def change_average(len_class):
+    list_class = list(map(int,input().split()))     # 과목 별 점수 입력
+    max_list_class = list_class[0]                  # 최고 값 지정
+    for i in range(len_class):                      # 과목의 개수만큼 반복
+        if list_class[i] >= max_list_class:
+            max_list_class = list_class[i]          # 최대값 구하기
+    for i in range(len_class):                      # 과목 점수 변경
+        list_class[i] = list_class[i]/max_list_class*100
+    average = sum(list_class)/len(list_class)       # 평균 구하기
+    return average
+
+average = change_average(len_class)
+
+print(average)

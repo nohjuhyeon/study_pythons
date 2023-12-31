@@ -8,15 +8,4 @@
 # 출력
 ## 첫째 줄에 팰린드롬이면 1, 아니면 0을 출력한다.
 
-A = input()
-
-N = int((len(A))/2)
-output = 1
-for i in range(N):
-    B = len(A)-i-1
-    if A[i] == A[B]:
-        output = output * 1
-        pass
-    else:
-        output = output * 0
-print(output)
+str_input = input()

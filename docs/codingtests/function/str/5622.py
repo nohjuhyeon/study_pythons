@@ -11,35 +11,33 @@
 ## 첫째 줄에 다이얼을 걸기 위해서 필요한 최소 시간을 출력한다.
 
 list_number = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
-print(len(list_number))
-tele_input = input()
-tele_output = 0
-pass
-for i in range(len(tele_input)):
-    if list_number.index(tele_input[i]) <= 2:
-        tele_output = 3 + tele_output
+str_input = input()
+
+def dial(list_number,str_input):
+    num_sum = 0                                     # num_sum 변수 지정
+    for i in range(len(str_input)):                 # 문자의 길이만큼 반복
+        num_index = list_number.index(str_input[i]) 
+        if num_index <= 2:                          # index가 2보다 작을 때
+            num_item = 3
+        elif num_index <= 5:                        # index가 5보다 작을 때
+            num_item = 4
+        elif num_index <= 8:                        # index가 8보다 작을 때
+            num_item = 5
+        elif num_index <= 11:                       # index가 11보다 작을 때
+            num_item = 6
+        elif num_index <= 14:                       # index가 14보다 작을 때
+            num_item = 7
+        elif num_index <= 18:                       # index가 18보다 작을 때
+            num_item = 8
+        elif num_index <= 21:                       # index가 21보다 작을 때
+            num_item = 9
+        elif num_index <= 25:                       # index가 25보다 작을 때
+            num_item = 10
+        else:
+            pass
+        num_sum = num_sum + num_item
         pass
-    elif list_number.index(tele_input[i]) <= 5:
-        tele_output = 4  + tele_output
-        pass
-    elif list_number.index(tele_input[i]) <= 8:
-        tele_output = 5  + tele_output
-        pass
-    elif list_number.index(tele_input[i]) <= 11:
-        tele_output = 6  + tele_output
-        pass
-    elif list_number.index(tele_input[i]) <= 14:
-        tele_output = 7  + tele_output
-        pass
-    elif list_number.index(tele_input[i]) <= 18:
-        tele_output = 8  + tele_output
-        pass
-    elif list_number.index(tele_input[i]) <= 21:
-        tele_output = 9  + tele_output
-        pass
-    elif list_number.index(tele_input[i]) <= 25:
-        tele_output = 10  + tele_output
-        pass
-    pass
-pass
-print(tele_output)
+    return num_sum
+
+num_sum = dial(list_number,str_input)
+print(num_sum)

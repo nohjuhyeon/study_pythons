@@ -6,6 +6,10 @@
 # 출력
 ## 첫째 줄에 단어의 개수를 출력한다.
 
-A = input().split()
-print(len(A))
+str_input = input().split()
 
+def len_str(str_input):
+    lenstr = len(str_input)             # 단어의 리스트의 길이 찾기
+    return lenstr
+lenstr = len_str(str_input)
+print(lenstr)

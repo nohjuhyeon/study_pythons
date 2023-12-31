@@ -8,44 +8,18 @@
 # 출력
 ## 첫째 줄에 상수의 대답을 출력한다.
 
-A,B = input().split()
-list_a=[]
-def print_max(C):
-    for i in range(len(C)):
-        list_a.append(C[i])
-        pass
-    list_a.reverse()
-    for i in range(len(C)):
-        print(list_a[i], end ="")
-        pass
-    print("")
+str_list = input().split()
 
-
-    
-if A[2] == B[2]:
-    if A[1] ==B[1]:
-        if A[0] > B[0]:
-            C = A
-            print_max(C)
+def max_reverse(str_list):
+    for i in range(len(str_list[0])):                           # 문자열의 길이만큼 반복
+        if int(str_list[0][-i-1]) > int(str_list[1][-i-1]):     # 마지막 숫자부터 크기 비교
+            for j in range(len(str_list[0])):                   # 역순으로 프린트
+                print(str_list[0][-j-1],end="")
+            break
+        elif int(str_list[0][-i-1]) < int(str_list[1][-i-1]):
+            for j in range(len(str_list[1])):
+                print(str_list[1][-j-1],end="")
+            break
+        else: 
             pass
-        else:
-            C = B
-            print_max(C)
-            pass
-        pass
-    elif A[1] > B[1]:
-        C = A
-        print_max(C)
-        pass
-    else:
-        C = B
-        print_max(C)
-        pass
-    pass
-elif A[2] > B[2]:
-    C = A
-    print_max(C)
-    pass
-else:
-    C = B
-    print_max(C)
+max_reverse(str_list)

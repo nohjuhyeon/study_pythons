@@ -6,5 +6,10 @@
 # 출력
 # 첫째 줄에 입력으로 주어진 단어의 길이를 출력한다.
 
-A = input()
-print(len(A))
+def len_str(str_input):
+    lenstr = len(str_input)                             # 문자의 길이 추출
+    return lenstr
+
+str_input = input()                                     # 문자 입력
+lenstr = len_str(str_input)
+print(lenstr)
