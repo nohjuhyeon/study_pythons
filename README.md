@@ -28,18 +28,18 @@
 |조건문|[non_fuction.py](./docs/codingtests/non_function/if/2884.py)|[fuction.py](./docs/codingtests/function/if/2884.py)|알람 시계 설정하기|[백준 2884](https://www.acmicpc.net/problem/2884)|
 |조건문|[non_fuction.py](./docs/codingtests/non_function/if/2525.py)|[fuction.py](./docs/codingtests/function/if/2525.py)|오븐 시계 설정하기|[백준 2525](https://www.acmicpc.net/problem/2525)|
 |조건문|[non_fuction.py](./docs/codingtests/non_function/if/2480.py)|[fuction.py](./docs/codingtests/function/if/2480.py)|주사위 세개|[백준 2480](https://www.acmicpc.net/problem/2480)|
-|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/2739.py)|[fuction.py](./docs/codingtests/function/loop/2739.py)|구구단 만들기|[백준 2739](https://www.acmicpc.net/problem/2739)|
-|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/10950.py)|[fuction.py](./docs/codingtests/function/loop/10950.py)|A + B|[백준 10950](https://www.acmicpc.net/problem/10950)|
-|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/8393.py)|[fuction.py](./docs/codingtests/function/loop/8393.py)|n까지의 합|[백준 8393](https://www.acmicpc.net/problem/8393)|
-|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/25304.py)|[fuction.py](./docs/codingtests/function/loop/25304.py)|영수증 만들기|[백준 25304](https://www.acmicpc.net/problem/25304)|
-|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/25314.py)|[fuction.py](./docs/codingtests/function/loop/25314.py)|반복하는 문자 만들기|[백준 25314](https://www.acmicpc.net/problem/25314)|
-|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/15552.py)|[fuction.py](./docs/codingtests/function/loop/15552.py)|A + B 시스템이용해서 만들기|[백준 15552](https://www.acmicpc.net/problem/15552)|
-|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/11021.py)|[fuction.py](./docs/codingtests/function/loop/11021.py)|A + B 값을 문자와 같이 출력하기|[백준 11021](https://www.acmicpc.net/problem/11021)|
-|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/11022.py)|[fuction.py](./docs/codingtests/function/loop/11022.py)|A + B 값을 문자와 같이 출력하기|[백준 11022](https://www.acmicpc.net/problem/11022)|
-|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/2438.py)|[fuction.py](./docs/codingtests/function/loop/2438.py)|별 출력하기|[백준 2438](https://www.acmicpc.net/problem/2438)|
-|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/2439.py)|[fuction.py](./docs/codingtests/function/loop/2439.py)|오른쪽부터 별 출력하기|[백준 2439](https://www.acmicpc.net/problem/2439)|
-|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/10952.py)|[fuction.py](./docs/codingtests/function/loop/10952.py)|0 0 을 치면 입력이 끝나는 A + B|[백준 10952](https://www.acmicpc.net/problem/10952)|
-|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/10951.py)|[fuction.py](./docs/codingtests/function/loop/10951.py)|오류가 나면 입력이 끝나는 A + B|[백준 10951](https://www.acmicpc.net/problem/10951)|
+|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/2739.py)|[fuction.py](./docs/codingtests/function/loops/2739.py)|구구단 만들기|[백준 2739](https://www.acmicpc.net/problem/2739)|
+|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/10950.py)|[fuction.py](./docs/codingtests/function/loops/10950.py)|A + B|[백준 10950](https://www.acmicpc.net/problem/10950)|
+|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/8393.py)|[fuction.py](./docs/codingtests/function/loops/8393.py)|n까지의 합|[백준 8393](https://www.acmicpc.net/problem/8393)|
+|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/25304.py)|[fuction.py](./docs/codingtests/function/loops/25304.py)|영수증 만들기|[백준 25304](https://www.acmicpc.net/problem/25304)|
+|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/25314.py)|[fuction.py](./docs/codingtests/function/loops/25314.py)|반복하는 문자 만들기|[백준 25314](https://www.acmicpc.net/problem/25314)|
+|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/15552.py)|[fuction.py](./docs/codingtests/function/loops/15552.py)|A + B 시스템이용해서 만들기|[백준 15552](https://www.acmicpc.net/problem/15552)|
+|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/11021.py)|[fuction.py](./docs/codingtests/function/loops/11021.py)|A + B 값을 문자와 같이 출력하기|[백준 11021](https://www.acmicpc.net/problem/11021)|
+|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/11022.py)|[fuction.py](./docs/codingtests/function/loops/11022.py)|A + B 값을 문자와 같이 출력하기|[백준 11022](https://www.acmicpc.net/problem/11022)|
+|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/2438.py)|[fuction.py](./docs/codingtests/function/loops/2438.py)|별 출력하기|[백준 2438](https://www.acmicpc.net/problem/2438)|
+|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/2439.py)|[fuction.py](./docs/codingtests/function/loops/2439.py)|오른쪽부터 별 출력하기|[백준 2439](https://www.acmicpc.net/problem/2439)|
+|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/10952.py)|[fuction.py](./docs/codingtests/function/loops/10952.py)|0 0 을 치면 입력이 끝나는 A + B|[백준 10952](https://www.acmicpc.net/problem/10952)|
+|반복문|[non_fuction.py](./docs/codingtests/non_function/loops/10951.py)|[fuction.py](./docs/codingtests/function/loops/10951.py)|오류가 나면 입력이 끝나는 A + B|[백준 10951](https://www.acmicpc.net/problem/10951)|
 |1차원 배열|[non_fuction.py](./docs/codingtests/non_function/array/10807.py)|[fuction.py](./docs/codingtests/function/array/10807.py)|개수 세기|[백준 10807](https://www.acmicpc.net/problem/10807)|
 |1차원 배열|[non_fuction.py](./docs/codingtests/non_function/array/10871.py)|[fuction.py](./docs/codingtests/function/array/10871.py)|x보다 작은 수 찾기|[백준 10871](https://www.acmicpc.net/problem/10871)|
 |1차원 배열|[non_fuction.py](./docs/codingtests/non_function/array/10818.py)|[fuction.py](./docs/codingtests/function/array/10818.py)|최대값, 최소값 찾기|[백준 10818](https://www.acmicpc.net/problem/10818)|
