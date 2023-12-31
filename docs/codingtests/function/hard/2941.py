@@ -18,3 +18,14 @@
 # 출력
 ## 입력으로 주어진 단어가 몇 개의 크로아티아 알파벳으로 이루어져 있는지 출력한다.
 
+str_input = input()
+
+
+def change_alphabet(str_input):
+    list_alphabet = ["dz=","c=","c-","d-","lj","nj","s=","z="]          # 크로아티아 알파벳 리스트 구성
+    for i in range(len(list_alphabet)):                                 
+        str_input = str_input.replace(list_alphabet[i],"0")             # 입력한 문자 내에 알파벳이 있으면 0으로 변경
+    print(len(str_input))                                               # 변경 한 문자열의 길이 출력
+    pass
+
+change_alphabet(str_input)

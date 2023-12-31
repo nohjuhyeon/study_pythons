@@ -6,25 +6,24 @@
 # 출력
 ## 첫째 줄부터 N개의 줄에 행렬 A와 B를 더한 행렬을 출력한다. 행렬의 각 원소는 공백으로 구분한다.
 
-N,M = map(int, input().split()) # 행렬의 크기 변수 입력
-list_A = []                       # A 행렬 리스트 변수 지정
-list_B = []                       # B 행렬 리스트 변수 지정
-list_sum =[]    
-for i in range(N):                              # A 행렬 리스트 작성
-    list_i = list(map(int,input().split()))
-    for j in range(M):
-        list_A.append(list_i[j])
-for i in range(N):
-    list_i = list(map(int,input().split()))     # B 행렬 리스트 작성
-    for j in range(M):
-        list_B.append(list_i[j])
-for i in range(len(list_A)):                    # A와 B 행렬 리스트의 덧셈 실행
-    num_sum = list_A[i] + list_B[i]
-    list_sum.append(num_sum)
-for i in range(N):                              # A와 B 행렬의 합 출력
-    for j in range(M):
-        repeat = int(j + i*M)                   # 행이 끝날 때 줄 바꿈 구현
-        print(list_sum[repeat], end=" ")
-        pass
-    print("")
+num_row,num_column = map(int,input().split())
 
+def sum_num(num_row,num_column):
+    list_A = []
+    list_B = []
+    list_sum = []
+    for i in range(num_row):                                # list_A에 값들 추가
+        list_row = list(map(int,input().split()))
+        for j in range(len(list_row)):
+            list_A.append(list_row[j])
+    for i in range(num_row):                                # list_B에 값들 추가
+        list_row = list(map(int,input().split()))
+        for j in range(len(list_row)):
+            list_B.append(list_row[j])
+    for i in range(len(list_A)):                            #list_A와 list_B 덧셈
+        list_sum.append(list_A[i]+list_B[i])
+    for i in range(num_row):                                # list_sum 출력
+        for j in range(num_column):
+            print(list_sum[i*num_column+j],end=" ")
+        print("")
+sum_num(num_row,num_column)

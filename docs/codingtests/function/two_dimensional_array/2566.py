@@ -18,12 +18,16 @@
 # 출력
 ## 첫째 줄에 최댓값을 출력하고, 둘째 줄에 최댓값이 위치한 행 번호와 열 번호를 빈칸을 사이에 두고 차례로 출력한다. 최댓값이 두 개 이상인 경우 그 중 한 곳의 위치를 출력한다.
 
-list_input = []
-
-for i in range(9):
-    list_input.extend(map(int, input().split()))
-
-print(max(list_input))
-row = int((list_input.index(max(list_input)))/9 + 1)
-column = (list_input.index(max(list_input)))%9 + 1
-print("{} {}".format(row, column))
+def max_index():
+    list_all = []
+    for i in range(9):                                      # 9번 동안 입력
+        list_input = list(map(int,input().split()))
+        for j in range(len(list_input)):
+            list_all.append(list_input[j])                 # 입력한 리스트 list_all에 추가
+    list_index = list_all.index(max(list_all)) + 1         # 최대값의 인덱스 추출
+    print(max(list_all))                                   # 최대값 출력
+    if list_index%9 != 0:                                  # 최대값/9의 나머지가 0이 아닌 경우
+        print("{} {}".format(int(list_index/9) + 1, list_index%9))
+    else:                                                  # 최대값/9의 나머지가 0인 경우
+        print("{} {}".format(int(list_index/9), 9))        # 0 대신 9로 출력
+max_index()

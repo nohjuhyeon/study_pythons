@@ -7,105 +7,14 @@
 # 출력
 ## 첫째 줄에 색종이가 붙은 검은 영역의 넓이를 출력한다.
 
-# a = 3,7       3, 17   13, 7   13, 17
-# b = 15, 7     15, 17  25, 7   25, 17
-# c = 5,2       5, 12   15, 2   15, 12
+def width():
+    num_input = int(input())
+    list_coordinate = []
+    for i in range(num_input):                                          # 입력한 반복횟수만큼 반복
+        num_width,num_length = map(int,input().split())
+        for j in range(10):                                             # 차지하는 x 좌표만큼 반복
+            for k in range(10):                                         # 차지하는 y 좌표만큼 반복
+                list_coordinate.append("{}, {}".format(num_width+j,num_length+k))
+    print(len(set(list_coordinate)))                                    # 중복되는 값을 없앤 후 리스트의 길이를 출력
 
-# a_x = 3
-# a_y = 7 
-# b_x = 5
-# b_y = 2
-
-# if b_x >= a_x and b_x <= (a_x + 10) and b_y >= a_y and b_y <= (a_y + 10):
-#     length_x = a_x+10 - b_x
-#     length_y = a_y+10 - b_y
-#     pass
-
-# if (b_x + 10) >= a_x and (b_x + 10) <= (a_x + 10) and b_y >= a_y and b_y <= (a_y + 10):
-#     length_x = b_x + 10 - a_x
-#     length_y = a_y+ 10 - b_y
-#     pass
-
-# if b_x >= a_x and b_x <= (a_x + 10) and (b_y + 10) >= a_y and (b_y + 10) <= (a_y + 10):
-#     length_x = a_x + 10 - b_x
-#     length_y = b_y + 10 - a_y
-#     pass
-
-# if (b_x + 10) >= a_x and (b_x + 10) <= (a_x + 10) and (b_y + 10) >= a_y and (b_y + 10) <= (a_y + 10):
-#     length_x = b_x + 10 - a_x
-#     length_y = b_y + 10 - a_y
-#     pass
-
-# print(length_x * length_y)
-
-# if a_x >= b_x and a_x <= (b_x + 10) and a_y >= b_y and a_y <= (b_y + 10):
-#         pass
-#     if (a_x + 10) >= b_x and (a_x + 10) <= (b_x + 10) and a_y >= b_y and a_y <= (b_y + 10):
-#         pass
-#     if a_x >= b_x and a_x <= (b_x + 10) and (a_y + 10) >= b_y and (a_y + 10) <= (b_y + 10):
-#         pass
-#     if (a_x + 10) >= b_x and (a_x + 10) <= (b_x + 10) and (a_y + 10) >= b_y and (a_y + 10) <= (b_y + 10):
-#         pass
-
-# list_x = []
-# list_y = []
-# list_width = []
-# N = int(input())
-# for i in range(N):
-#     x,y = map(int,input().split())
-#     list_x.append(x)
-#     list_y.append(y)
-# for i in range(N):
-#     for j in range(i+1,N):
-#         a_x = list_x[i]
-#         a_y = list_y[i]
-#         b_x = list_x[j]
-#         b_y = list_y[j]
-#         if a_x == b_x and a_y == b_y:
-#             width = 100
-#             list_width.append(width)
-#         else:
-#             if b_x >= a_x and b_x <= (a_x + 10) and b_y >= a_y and b_y <= (a_y + 10):                   #왼아
-#                 length_x = a_x+10 - b_x
-#                 length_y = a_y+10 - b_y
-#                 width = length_x * length_y
-#                 list_width.append(width)
-#                 pass
-
-#             if (b_x + 10) >= a_x and (b_x + 10) <= (a_x + 10) and b_y >= a_y and b_y <= (a_y + 10):     #오아
-#                 length_x = b_x + 10 - a_x
-#                 length_y = a_y+ 10 - b_y
-#                 width = length_x * length_y
-#                 list_width.append(width)
-#                 pass
-
-#             if b_x >= a_x and b_x <= (a_x + 10) and (b_y + 10) >= a_y and (b_y + 10) <= (a_y + 10):     #왼위
-#                 length_x = a_x + 10 - b_x
-#                 length_y = b_y + 10 - a_y
-#                 width = length_x * length_y
-#                 list_width.append(width)
-#                 pass
-
-#             if (b_x + 10) > a_x and (b_x + 10) <= (a_x + 10) and (b_y + 10) >= a_y and (b_y + 10) <= (a_y + 10):       #오위
-#                 length_x = b_x + 10 - a_x
-#                 length_y = b_y + 10 - a_y
-#                 width = length_x * length_y
-#                 list_width.append(width)
-#                 pass
-        
-# print(list_width)
-# minus_width = sum(list_width)
-# print(100 * N - minus_width)
-
-
-# set가 다른거만 넣는거잖아!
-count_set =set()
-N = int(input())
-for k in range(N):
-    x,y = map(int,input().split())
-    for i in range(10):
-        for j in range(10):
-            B = i+1+x,j+1+y
-            count_set.add(B)
-print(len(count_set))
-
+width()

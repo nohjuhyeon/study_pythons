@@ -26,3 +26,43 @@
 ## 학점은 1.0,2.0,3.0,4.0중 하나이다.
 ## 등급은 A+,A0,B+,B0,C+,C0,D+,D0,F,P중 하나이다.
 ## 적어도 한 과목은 등급이 P가 아님이 보장된다.
+def class_list():
+    list_class = []
+    list_score =[]
+    for i in range(20):
+        class_input = input().split()
+        if class_input[2] != "P":                   # P를 제외한 전공평점을 숫자로 변경
+            if class_input[2] == "A+":
+                class_input[2] = 4.5
+            elif class_input[2] =="A0":
+                class_input[2] = 4.0
+            elif class_input[2] =="B+":
+                class_input[2] = 3.5
+            elif class_input[2] =="B0":
+                class_input[2] = 3.0
+            elif class_input[2] =="C+":
+                class_input[2] = 2.5
+            elif class_input[2] =="C0":
+                class_input[2] = 2.0
+            elif class_input[2] =="D+":
+                class_input[2] = 1.5
+            elif class_input[2] =="D0":
+                class_input[2] = 1.0
+            elif class_input[2] == "F":
+                class_input[2] = 0.0
+            list_score.append(class_input[2])
+            list_class.append(float(class_input[1]))        # 문자들을 숫자화
+        pass
+    return list_class,list_score
+
+def calculator(list_class,list_score):
+    list_sum = []
+    for i in range(len(list_class)):
+        list_sum.append(list_class[i]*list_score[i])       
+    num_sum = sum(list_sum)/sum(list_class)                 # 평점 평균 구하기
+    pass
+    return num_sum
+
+list_class,list_score = class_list()
+num_sum = calculator(list_class,list_score)
+print(num_sum)

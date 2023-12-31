@@ -9,3 +9,16 @@
 ## 첫째 줄에 팰린드롬이면 1, 아니면 0을 출력한다.
 
 str_input = input()
+
+def palindrome(str_input):
+    repeat = int(len(str_input)/2)                              # 비교 횟수 지정
+
+    for i in range(repeat):
+        if str_input[i] != str_input[len(str_input) - i-1]:    # 만약에 펠린드롬이 아닐 경우
+            print(0)                                           # 0 출력
+            break
+    else:
+        print(1)                                              # 펠린드롬일 경우 1 출력
+
+
+palindrome(str_input)

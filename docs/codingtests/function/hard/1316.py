@@ -10,5 +10,25 @@
 # 출력
 # 첫째 줄에 그룹 단어의 개수를 출력한다.
 
+num_input = int(input())                        # 반복횟수 입력
 
-    
+def group_word_checker(num_input):
+    num_checker = 0                            # 그룹 단어 카운트 변수 지정
+    for i in range(num_input):
+        str_input = input()                    # 문자 입력
+        list_input = list(set(str_input))       
+        check_num = 0                          # 체크 변수 지정
+        for j in range(len(list_input)):
+            str_count = str_input.count(list_input[j])      # 문자의 카운트 변수 지정
+            str_index = str_input.index(list_input[j])      # 문자의 인덱스 변수 지정
+            pass
+            pass
+            for k in range(str_index, str_index + str_count):
+                if str_input[k] != str_input[str_index]:    # 그룹 단어가 아닐 경우
+                    check_num += 1                          # 체크 변수 + 1
+        if check_num == 0:                                  # 체크 변수가 0일 경우
+            num_checker += 1                                # 카운트 변수 + 1
+            pass
+    print(num_checker)
+
+group_word_checker(num_input)

@@ -128,4 +128,5 @@ for i in range(len(class_list)):
     sum_score = sum_score + class_list[i] * score_list[i]
     sum_class = sum_class + class_list[i]
 answer = sum_score/sum_class
+pass
 print("{:.6f}".format(float(answer)))
