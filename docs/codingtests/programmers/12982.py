@@ -57,53 +57,74 @@
 #             list_a=[]
 #     return answer
 
+# def solution(d, budget):
+#     list_a = []
+#     list_c = []
+#     answer = 0
+#     for i in range(len(d)):
+#         list_b = []
+#         list_b.append(d[i])
+#         list_c.append(list_b)
+#         list_a.append(list_b)
+#     pass
+#     repeat = 1
+#     for k in range(4):
+#         list_d=[]
+#         for i in range(len(list_a)):
+#             index = 0
+#             for m in range(repeat):
+#                 for j in range(i+k+1,len(d)):
+#                     list_b=[]
+#                     for x in range(len(list_c[index+m+i])):
+#                         list_b.append(list_c[index+m+i][x])
+#                         pass
+#                     pass
+#                     if sum(list_b) > budget:
+#                         answer = k+1
+#                         break
+#                     else:
+#                         list_b.append(d[j])
+#                         pass
+#                         list_d.append(list_b)
+#                         pass
+#                     pass
+#                 pass
+#             index = repeat-1-i    
+#             if answer !=0:
+#                 break
+#         if answer != 0:
+#             break
+#         else:
+#             repeat = len(list_a)
+#         pass
+#         list_c=[]
+#         for i in range(len(list_d)):
+#             list_c.append(list_d[i])
+#         pass
+#         list_a = []
+#         for i in range(len(list_c)):
+#             list_a.append(list_c[i])
+#     return answer
+
 def solution(d, budget):
     list_a = []
-    list_c = []
-    answer = 0
     for i in range(len(d)):
         list_b = []
         list_b.append(d[i])
-        list_c.append(list_b)
         list_a.append(list_b)
     pass
-    repeat = 1
-    for k in range(4):
-        list_d=[]
-        for i in range(len(list_a)):
-            index = 0
-            for m in range(repeat):
-                for j in range(i+k+1,len(d)):
-                    list_b=[]
-                    for x in range(len(list_c[index+m+i])):
-                        list_b.append(list_c[index+m+i][x])
-                        pass
-                    pass
-                    if sum(list_b) > budget:
-                        answer = k+1
-                        break
-                    else:
-                        list_b.append(d[j])
-                        pass
-                        list_d.append(list_b)
-                        pass
-                    pass
-                pass
-            index = repeat-1-i    
-            if answer !=0:
-                break
-        if answer != 0:
-            break
-        else:
-            repeat = len(list_a)
+    j = 1
+    for i in range(j,len(d)):
+        list_c = []
+        for i in range(len(list_a[0])):
+            list_c.append(list_a[0][i])
+        list_c.append(d[j])
+        list_a.append(list_c)
+        print(j)
         pass
-        list_c=[]
-        for i in range(len(list_d)):
-            list_c.append(list_d[i])
-        pass
-        list_a = []
-        for i in range(len(list_c)):
-            list_a.append(list_c[i])
+        j += 1
+    pass
+    answer = list_a
     return answer
 
 d = [1,3,2,5,4]
