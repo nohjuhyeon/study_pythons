@@ -165,20 +165,35 @@
 
 def solution(d, budget):
     list_b = []
+    list_e=[]
     for i in range(len(d)):
         list_a = d[:]
         list_a.remove(d[i])
         list_b.append(list_a)
+    for i in range(len(d)):
+        list_a = []
+        list_a.append(d[i])
+        list_e.append(list_a)
+    answer = list_e+list_b
     list_c = []
     count = 0
     for i in range(len(list_b)):
         for k in range(count,len(list_b[i])):
             list_d = list_b[i][:]
             list_d.remove(list_b[i][k])
+            list_c.append(list_d)
+        count += 1
+    count=1
+    answer += list_c
+    list_c=[]
+    for i in range(len(list_e)):
+        for k in range(count,len(d)):
+            list_d = list_e[i][:]
+            list_d.append(d[k])
             list_c.append(list_d) 
             pass
         count += 1
-    answer = list_c
+    answer += list_c
     pass
     return answer
 
