@@ -141,6 +141,7 @@
 
 #     list_c = [d]
 #     list_b=[]
+#     pass
 #     answer = 0
 #     if sum(d) <= budget:
 #         answer = len(d)
@@ -151,53 +152,71 @@
 #             for k in range(len(list_b)):
 #                 for i in range(len(list_b[0])):
 #                     list_a =list_b[k][:i] + list_b[k][i+1:]
-#                     list_c.append(list_a)
-#                     if sum(list_a) <= budget:
-#                         answer = len(list_a)
-#                         break
-#                 if answer != 0:
-#                     break
+#                     if list_a not in list_c:
+#                         list_c.append(list_a)
+#                     pass
+#                 pass
+#             # for i in range(len(list_c)):
+#             #     if sum(list_c[i])<= budget:
+#             #         answer = len(list_c[i])
+#             #         break
+#             # if answer != 0:
+#             #     break
+#             pass
 #             list_b=[]
-#             if answer != 0:
-#                 break
 #             pass
 #     return answer
 
+
+# def solution(d, budget):
+#     list_b = []
+#     list_e=[]
+#     for i in range(len(d)):
+#         list_a = d[:]
+#         list_a.remove(d[i])
+#         list_b.append(list_a)
+#     for i in range(len(d)):
+#         list_a = []
+#         list_a.append(d[i])
+#         list_e.append(list_a)
+#     answer = list_e+list_b
+#     list_c = []
+#     count = 0
+#     for i in range(len(list_b)):
+#         for k in range(count,len(list_b[i])):
+#             list_d = list_b[i][:]
+#             list_d.remove(list_b[i][k])
+#             list_c.append(list_d)
+#         count += 1
+#     count=1
+#     answer += list_c
+#     list_c=[]
+#     for i in range(len(list_e)):
+#         for k in range(count,len(d)):
+#             list_d = list_e[i][:]
+#             list_d.append(d[k])
+#             list_c.append(list_d) 
+#             pass
+#         count += 1
+#     answer += list_c
+#     pass
+#     return answer
+
 def solution(d, budget):
-    list_b = []
-    list_e=[]
+    d.sort()
+    sum_d = sum(d)
+    answer = 0
     for i in range(len(d)):
-        list_a = d[:]
-        list_a.remove(d[i])
-        list_b.append(list_a)
-    for i in range(len(d)):
-        list_a = []
-        list_a.append(d[i])
-        list_e.append(list_a)
-    answer = list_e+list_b
-    list_c = []
-    count = 0
-    for i in range(len(list_b)):
-        for k in range(count,len(list_b[i])):
-            list_d = list_b[i][:]
-            list_d.remove(list_b[i][k])
-            list_c.append(list_d)
-        count += 1
-    count=1
-    answer += list_c
-    list_c=[]
-    for i in range(len(list_e)):
-        for k in range(count,len(d)):
-            list_d = list_e[i][:]
-            list_d.append(d[k])
-            list_c.append(list_d) 
+        if sum_d <= budget:
+            answer = len(d)-i
+            break
+        else:
+            sum_d = sum_d - d[-i-1]
             pass
-        count += 1
-    answer += list_c
-    pass
+        pass
     return answer
 
-d = [1,3,2,5,4]
-budget = 9
+d = [11,12,13,14]
+budget = 10
 answer = solution(d,budget)
 print(answer)
