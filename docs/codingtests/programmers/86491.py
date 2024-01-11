@@ -33,43 +33,78 @@
 # 입출력 예 #3
 ## 명함들을 적절히 회전시켜 겹쳤을 때, 모든 명함을 포함하는 가장 작은 지갑의 크기는 133(=19 x 7)입니다.
 
+# def solution(sizes):
+#     repeat_i = 2**len(sizes)
+#     list_sizes = []
+#     list_answer =[]
+#     for j in range(len(sizes[0])):
+#         list_sizes_a = []
+#         for i in range(len(sizes)):
+#             list_sizes_a.append(sizes[i][j])
+#         list_sizes.append(list_sizes_a)
+#     pass
+#     for i in range(repeat_i):
+#         index = []
+#         index_list =[]
+#         num_a = repeat_i/2
+#         a = int(i/num_a)
+#         b = int(i%num_a)
+#         index.append(a)
+#         for j in range(len(sizes)-1):
+#             num_a = num_a/2
+#             a = int(b/num_a)
+#             b = int(b%num_a)
+#             index.append(a)
+#             pass
+#         for j in range(len(index)):
+#             index_list.append(list_sizes[index[j]][j])
+#         pass
+#         list_answer.append(index_list)
+#     pass
+#     answer = max(list_answer[0]) * max(list_answer[-1])
+#     for i in range(int(len(list_answer)/2)):
+#         num_max = max(list_answer[i]) * max(list_answer[-1-i])
+#         if num_max < answer:
+#             answer =num_max
+#     return answer
+
+# def solution(sizes):
+#     index_list =[]
+#     repeat_i = 2**len(sizes)
+#     for i in range(repeat_i):
+#         index = []
+#         sizes_list = []
+#         num_a = repeat_i
+#         b = i
+#         for j in range(len(sizes)):
+#             num_a = num_a/2
+#             a = int(b/num_a)
+#             b = int(b%num_a)
+#             index.append(a)
+#             pass
+#         for j in range(len(index)):
+#             sizes_list.append(sizes[j][index[j]])
+#         num_sizes = max(sizes_list)
+#         index_list.append(num_sizes)
+#     max_list = []
+#     for i in range(int(len(index_list)/2)):
+#         num_max = index_list[i]*index_list[-1-i]
+#         max_list.append(num_max)
+#     answer = min(max_list)
+#     return answer
+
 def solution(sizes):
-    index_list =[]
-    repeat_i = 2**len(sizes)
-    for i in range(repeat_i):
-        index = []
-        num_a = repeat_i/2
-        a = int(i/num_a)
-        b = int(i%num_a)
-        index.append(a)
-        for j in range(len(sizes)-1):
-            num_a = num_a/2
-            a = int(b/num_a)
-            b = int(b%num_a)
-            index.append(a)
-            pass
-        index_list.append(index)
-    pass
-    x = sizes[0][0]
-    y= sizes[0][1]
+    list_sizes = []
     for i in range(len(sizes)):
-                if sizes[i][0] > x:
-                    x = sizes[i][0]
-                if sizes[i][1] > y:
-                    y = sizes[i][1]
+        list_sizes.append([max(sizes[i]),min(sizes[i])])
+    x = list_sizes[0][0]
+    y = list_sizes[0][1]
+    for i in range(1,len(list_sizes)):
+        if list_sizes[i][0] > x:
+            x = list_sizes[i][0] 
+        if list_sizes[i][1] > y:
+            y = list_sizes[i][1] 
     answer = x*y
-    for j in range(int((len(index_list))/2)):
-        x = 0
-        y = 0
-        for i in range(len(sizes)):
-            if sizes[i][index_list[j][i]] > x:
-                x = sizes[i][index_list[j][i]]
-            if sizes[i][index_list[-1-j][i]] > y:
-                y = sizes[i][index_list[-1-j][i]]
-            pass
-        pass
-        if x*y <= answer:
-            answer = x*y
     return answer
 
 sizes = [[14, 4], [19, 6], [6, 16], [18, 7], [7, 11]]
