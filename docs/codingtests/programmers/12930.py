@@ -10,28 +10,48 @@
 # 입출력 예 설명
 ## "try hello world"는 세 단어 "try", "hello", "world"로 구성되어 있습니다. 각 단어의 짝수번째 문자를 대문자로, 홀수번째 문자를 소문자로 바꾸면 "TrY", "HeLlO", "WoRlD"입니다. 따라서 "TrY HeLlO WoRlD" 를 리턴합니다.
 
-def solution(s):
-    list_s = list(s.split())
-    pass
-    list_a = []
-    for i in range(len(list_s)):
-        str_s = ""
-        list_s[i]=list(list_s[i])
-        for j in range(len(list_s[i])):
-            if j%2 == 0:
-                list_s[i][j] = list_s[i][j].upper()
-                pass
-            else:
-                list_s[i][j] = list_s[i][j].lower()
-            str_s = str_s + list_s[i][j]
-        list_a.append(str_s)
-    answer = ' '.join(s for s in list_a)
+# def solution(s):
+#     list_s = list(s.split())
+#     pass
+#     list_a = []
+#     for i in range(len(list_s)):
+#         str_s = ""
+#         list_s[i]=list(list_s[i])
+#         for j in range(len(list_s[i])):
+#             if j%2 == 0:
+#                 list_s[i][j] = list_s[i][j].upper()
+#                 pass
+#             else:
+#                 list_s[i][j] = list_s[i][j].lower()
+#             str_s = str_s + list_s[i][j]
+#         list_a.append(str_s)
+#     answer = ' '.join(s for s in list_a)
 
     # list_s=list(s.split())
     # answer = s
     # for i in range(len(list_a)):
     #     answer = answer.replace(list_s[i], list_a[i])
+    # return answer
+
+def solution(s):
+    list_s = list(s)
+    num_check = 0
+    answer = ""
+    for i in range(len(list_s)):
+        if list_s[i] ==" ":
+            str_answer = " "
+            num_check = 0
+        else: 
+            if num_check% 2 == 0:
+                str_answer = list_s[i].upper()
+                num_check += 1
+            else:
+                str_answer = list_s[i].lower()
+                num_check += 1
+        pass
+        answer = answer + str_answer
     return answer
+
 
 s = input()
 answer = solution(s)
