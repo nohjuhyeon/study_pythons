@@ -12,16 +12,9 @@
 
 A,B,V = map(int,input().split())
 def question(A,B,V):
-    int((V-A)/(A-B))
-    # height = 0
-    # answer = 0
-    # while True:
-    #     height += A
-    #     answer += 1
-    #     if height >= V:
-    #         break
-    #     else:
-    #         height -= B
+    answer = int((V-A)/(A-B))+1
+    if int((V-A)%(A-B))!=0:
+        answer +=1
     return answer
 
 answer = question(A,B,V)
