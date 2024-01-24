@@ -73,6 +73,20 @@
 |2차원 배열|[non_fuction.py](./docs/codingtests/non_function/two_dimensional_array/2566.py)|[function.py](./docs/codingtests/function/two_dimensional_array/2566.py)|최댓값과 위치 찾기|[백준 2566](https://www.acmicpc.net/problem/2566)|
 |2차원 배열|[non_fuction.py](./docs/codingtests/non_function/two_dimensional_array/10798.py)|[function.py](./docs/codingtests/function/two_dimensional_array/10798.py)|세로 읽기|[백준 10798](https://www.acmicpc.net/problem/10798)|
 |2차원 배열|[non_fuction.py](./docs/codingtests/non_function/two_dimensional_array/2563.py)|[function.py](./docs/codingtests/function/two_dimensional_array/2563.py)|색종이 넓이 구하기|[백준 2563](https://www.acmicpc.net/problem/2563)|
+|일반 수학 1||[function.py](./docs/codingtests/function/normal_math1/2745.py)|진법 변환|[백준 2745](https://www.acmicpc.net/problem/2745)|
+|일반 수학 1||[function.py](./docs/codingtests/function/normal_math1/11005.py)|진법 변환2|[백준 11005](https://www.acmicpc.net/problem/11005)|
+|일반 수학 1||[function.py](./docs/codingtests/function/normal_math1/2720.py)|세탁소 사장 동혁|[백준 2720](https://www.acmicpc.net/problem/2720)|
+|일반 수학 1||[function.py](./docs/codingtests/function/normal_math1/2903.py)|중앙 이동 알고리즘|[백준 2903](https://www.acmicpc.net/problem/2903)|
+|일반 수학 1||[function.py](./docs/codingtests/function/normal_math1/2292.py)|벌집|[백준 2292](https://www.acmicpc.net/problem/2292)|
+|일반 수학 1||[function.py](./docs/codingtests/function/normal_math1/1193.py)|분수 찾기|[백준 1193](https://www.acmicpc.net/problem/1193)|
+|일반 수학 1||[function.py](./docs/codingtests/function/normal_math1/2869.py)|달팽이는 올라가고 싶다|[백준 2869](https://www.acmicpc.net/problem/2869)|
+|약수,배수와 소수||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals/5086.py)|배수와 약수|[백준 5086](https://www.acmicpc.net/problem/5086)|
+|약수,배수와 소수||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals/2501.py)|약수 구하기|[백준 2501](https://www.acmicpc.net/problem/2501)|
+|약수,배수와 소수||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals/9506.py)|약수들의 합|[백준 9506](https://www.acmicpc.net/problem/9506)|
+|약수,배수와 소수||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals/1978.py)|소수 찾기|[백준 1978](https://www.acmicpc.net/problem/1978)|
+|약수,배수와 소수||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals/2581.py)|소수|[백준 2581](https://www.acmicpc.net/problem/2581)|
+|약수,배수와 소수||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals/11653.py)|소인수분해|[백준 11653](https://www.acmicpc.net/problem/11653)|
+
 
 ### 코드 블럭
 ~$ python ./solving_problems_functions.py
