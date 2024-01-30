@@ -7,17 +7,62 @@
 
 # 출력
 ## 첫째 줄부터 N개의 줄에 오름차순으로 정렬한 결과를 한 줄에 하나씩 출력한다.
-import array    as arr
 
-n = int(input())
+# n = int(input())
+
+# def question(n):
+#     answer= []
+#     a = 1
+#     for i in range(n):
+#         answer.append(int(input()))
+#     while True:
+#         if a in answer:
+#             for i in range(answer.count(a)):
+#                 print(a)
+#         a += 1
+#         if a > max(answer):
+#             break
+#     return 0
+
+# question(n)
+    
+# n = int(input())
+
+# def question(n):
+#     answer= {}
+#     for i in range(n):
+#         answer[i] = int(input())
+#     answer_array = sorted(answer.items(), key = lambda x:x[1])
+#     for i in range(len(answer_array)):
+#         print(answer_array[i][1])
+#     return 0
+
+# question(n)
+    
+# n = int(input())
+
+# def question(n):
+#     answer= {}
+#     for i in range(n):
+#         answer_element = input()
+#         answer[answer_element] = answer_element
+#     answer_array = sorted(answer)
+#     for i in range(len(answer_array)):
+#         print(answer_array[i])
+#     return 0
+
+# question(n)
+import sys      
+
+n = int(sys.stdin.readline())
 
 def question(n):
-    answer= []
+    answer = [0]*n
     for i in range(n):
-        answer.append(int(input()))
-    answer_array = arr.array(answer)
-    for i in range(len(answer_array)):
-        print(answer_array[i])
+        answer[i]= int(sys.stdin.readline())
+    answer.sort()
+    for i in range(len(answer)):
+        print(answer[i])
     return 0
 
 question(n)

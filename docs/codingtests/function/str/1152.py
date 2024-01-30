@@ -6,6 +6,7 @@
 # 출력
 ## 첫째 줄에 단어의 개수를 출력한다.
 
+
 str_input = input().split()
 
 def len_str(str_input):
