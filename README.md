@@ -86,8 +86,38 @@
 |약수,배수와 소수||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals/1978.py)|소수 찾기|[백준 1978](https://www.acmicpc.net/problem/1978)|
 |약수,배수와 소수||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals/2581.py)|소수|[백준 2581](https://www.acmicpc.net/problem/2581)|
 |약수,배수와 소수||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals/11653.py)|소인수분해|[백준 11653](https://www.acmicpc.net/problem/11653)|
-
-
+|기하:직사각형과 삼각형||[function.py](./docs/codingtests/function/geometry/27323.py)|직사각형|[백준 27323](https://www.acmicpc.net/problem/27323)|
+|기하:직사각형과 삼각형||[function.py](./docs/codingtests/function/geometry/1085.py)|직사각형에서 탈출|[백준 1085](https://www.acmicpc.net/problem/1085)|
+|기하:직사각형과 삼각형||[function.py](./docs/codingtests/function/geometry/3009.py)|네 번쨰 점|[백준 3009](https://www.acmicpc.net/problem/3009)|
+|기하:직사각형과 삼각형||[function.py](./docs/codingtests/function/geometry/15894.py)|수학은 체육과목입니다|[백준 15894](https://www.acmicpc.net/problem/15894)|
+|기하:직사각형과 삼각형||[function.py](./docs/codingtests/function/geometry/9063.py)|대지|[백준 9063](https://www.acmicpc.net/problem/9063)|
+|기하:직사각형과 삼각형||[function.py](./docs/codingtests/function/geometry/10101.py)|삼각형 외우기|[백준 10101](https://www.acmicpc.net/problem/10101)|
+|기하:직사각형과 삼각형||[function.py](./docs/codingtests/function/geometry/5073.py)|삼각형과 세 변|[백준 5073](https://www.acmicpc.net/problem/5073)|
+|기하:직사각형과 삼각형||[function.py](./docs/codingtests/function/geometry/14215.py)|세 막대|[백준 14215](https://www.acmicpc.net/problem/14215)|
+|시간 복잡도||[function.py](./docs/codingtests/function/time_complexity/24262.py)|알고리즘 수업 - 알고리즘의 수행 시간 1|[백준 24262](https://www.acmicpc.net/problem/24262)|
+|시간 복잡도||[function.py](./docs/codingtests/function/time_complexity/24263.py)|알고리즘 수업 - 알고리즘의 수행 시간 2|[백준 24263](https://www.acmicpc.net/problem/24263)|
+|시간 복잡도||[function.py](./docs/codingtests/function/time_complexity/24264.py)|알고리즘 수업 - 알고리즘의 수행 시간 3|[백준 24264](https://www.acmicpc.net/problem/24264)|
+|시간 복잡도||[function.py](./docs/codingtests/function/time_complexity/24265.py)|알고리즘 수업 - 알고리즘의 수행 시간 4|[백준 24265](https://www.acmicpc.net/problem/24265)|
+|시간 복잡도||[function.py](./docs/codingtests/function/time_complexity/24266.py)|알고리즘 수업 - 알고리즘의 수행 시간 5|[백준 24266](https://www.acmicpc.net/problem/24266)|
+|시간 복잡도||[function.py](./docs/codingtests/function/time_complexity/24267.py)|알고리즘 수업 - 알고리즘의 수행 시간 6|[백준 24267](https://www.acmicpc.net/problem/24267)|
+|시간 복잡도||[function.py](./docs/codingtests/function/time_complexity/24313.py)|알고리즘 수업 - 점근적 표기 1|[백준 24313](https://www.acmicpc.net/problem/24313)|
+|브루트 포스||[function.py](./docs/codingtests/function/brute_force/2798.py)|블랙잭|[백준 2798](https://www.acmicpc.net/problem/2798)|
+|브루트 포스||[function.py](./docs/codingtests/function/brute_force/2231.py)|분해합|[백준 2231](https://www.acmicpc.net/problem/2231)|
+|브루트 포스||[function.py](./docs/codingtests/function/brute_force/19532.py)|수학은 비대면강의입니다|[백준 19532](https://www.acmicpc.net/problem/19532)|
+|브루트 포스||[function.py](./docs/codingtests/function/brute_force/1018.py)|체스판 다시 칠하기|[백준 1018](https://www.acmicpc.net/problem/1018)|
+|브루트 포스||[function.py](./docs/codingtests/function/brute_force/1436.py)|영화감독 숌|[백준 1436](https://www.acmicpc.net/problem/1436)|
+|브루트 포스||[function.py](./docs/codingtests/function/brute_force/2839.py)|설탕 배달|[백준 2839](https://www.acmicpc.net/problem/2839)|
+|정렬||[function.py](./docs/codingtests/function/align/2750.py)||[백준 2750](https://www.acmicpc.net/problem/2750)|
+|정렬||[function.py](./docs/codingtests/function/align/2587.py)||[백준 2587](https://www.acmicpc.net/problem/2587)|
+|정렬||[function.py](./docs/codingtests/function/align/25305.py)||[백준 25305](https://www.acmicpc.net/problem/25305)|
+|정렬||[function.py](./docs/codingtests/function/align/2751.py)||[백준 2751](https://www.acmicpc.net/problem/2751)|
+|정렬||[function.py](./docs/codingtests/function/align/10989.py)||[백준 10989](https://www.acmicpc.net/problem/10989)|
+|정렬||[function.py](./docs/codingtests/function/align/1427.py)||[백준 1427](https://www.acmicpc.net/problem/1427)|
+|정렬||[function.py](./docs/codingtests/function/align/11650.py)||[백준 11650](https://www.acmicpc.net/problem/11650)|
+|정렬||[function.py](./docs/codingtests/function/align/11651.py)||[백준 11651](https://www.acmicpc.net/problem/11651)|
+|정렬||[function.py](./docs/codingtests/function/align/1181.py)||[백준 1181](https://www.acmicpc.net/problem/1181)|
+|정렬||[function.py](./docs/codingtests/function/align/10814.py)||[백준 10814](https://www.acmicpc.net/problem/10814)|
+|정렬||[function.py](./docs/codingtests/function/align/18870.py)||[백준 18870](https://www.acmicpc.net/problem/18870)|
 ### 코드 블럭
 ~$ python ./solving_problems_functions.py
 ~$ python ./solving_problems_classes.py

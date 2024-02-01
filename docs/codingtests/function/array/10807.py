@@ -16,7 +16,11 @@ class quest:
         for i in range(self.num_input):                         # 입력한 반복 횟수만큼 반복
             if self.num_check == self.list_num[i]:              # 만약에 리스트와 비교값이 같을 경우
                 self.num_count += 1                             # 카운트 + 1
+            else:
+                pass
         print(self.num_count)
 
 Quest = quest()
 Quest.count_num()
+
+
