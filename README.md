@@ -107,17 +107,26 @@
 |브루트 포스||[function.py](./docs/codingtests/function/brute_force/1018.py)|체스판 다시 칠하기|[백준 1018](https://www.acmicpc.net/problem/1018)|
 |브루트 포스||[function.py](./docs/codingtests/function/brute_force/1436.py)|영화감독 숌|[백준 1436](https://www.acmicpc.net/problem/1436)|
 |브루트 포스||[function.py](./docs/codingtests/function/brute_force/2839.py)|설탕 배달|[백준 2839](https://www.acmicpc.net/problem/2839)|
-|정렬||[function.py](./docs/codingtests/function/align/2750.py)||[백준 2750](https://www.acmicpc.net/problem/2750)|
-|정렬||[function.py](./docs/codingtests/function/align/2587.py)||[백준 2587](https://www.acmicpc.net/problem/2587)|
-|정렬||[function.py](./docs/codingtests/function/align/25305.py)||[백준 25305](https://www.acmicpc.net/problem/25305)|
-|정렬||[function.py](./docs/codingtests/function/align/2751.py)||[백준 2751](https://www.acmicpc.net/problem/2751)|
-|정렬||[function.py](./docs/codingtests/function/align/10989.py)||[백준 10989](https://www.acmicpc.net/problem/10989)|
-|정렬||[function.py](./docs/codingtests/function/align/1427.py)||[백준 1427](https://www.acmicpc.net/problem/1427)|
-|정렬||[function.py](./docs/codingtests/function/align/11650.py)||[백준 11650](https://www.acmicpc.net/problem/11650)|
-|정렬||[function.py](./docs/codingtests/function/align/11651.py)||[백준 11651](https://www.acmicpc.net/problem/11651)|
-|정렬||[function.py](./docs/codingtests/function/align/1181.py)||[백준 1181](https://www.acmicpc.net/problem/1181)|
-|정렬||[function.py](./docs/codingtests/function/align/10814.py)||[백준 10814](https://www.acmicpc.net/problem/10814)|
-|정렬||[function.py](./docs/codingtests/function/align/18870.py)||[백준 18870](https://www.acmicpc.net/problem/18870)|
+|정렬||[function.py](./docs/codingtests/function/align/2750.py)|수 정렬하기|[백준 2750](https://www.acmicpc.net/problem/2750)|
+|정렬||[function.py](./docs/codingtests/function/align/2587.py)|대표값2|[백준 2587](https://www.acmicpc.net/problem/2587)|
+|정렬||[function.py](./docs/codingtests/function/align/25305.py)|커트라인|[백준 25305](https://www.acmicpc.net/problem/25305)|
+|정렬||[function.py](./docs/codingtests/function/align/2751.py)|수 정렬하기 2|[백준 2751](https://www.acmicpc.net/problem/2751)|
+|정렬||[function.py](./docs/codingtests/function/align/10989.py)|수 정렬하기 3|[백준 10989](https://www.acmicpc.net/problem/10989)|
+|정렬||[function.py](./docs/codingtests/function/align/1427.py)|소트인사이드|[백준 1427](https://www.acmicpc.net/problem/1427)|
+|정렬||[function.py](./docs/codingtests/function/align/11650.py)|좌표 정렬하기|[백준 11650](https://www.acmicpc.net/problem/11650)|
+|정렬||[function.py](./docs/codingtests/function/align/11651.py)|좌표 정렬하기 2|[백준 11651](https://www.acmicpc.net/problem/11651)|
+|정렬||[function.py](./docs/codingtests/function/align/1181.py)|단어 정렬|[백준 1181](https://www.acmicpc.net/problem/1181)|
+|정렬||[function.py](./docs/codingtests/function/align/10814.py)|나이순 정렬|[백준 10814](https://www.acmicpc.net/problem/10814)|
+|정렬||[function.py](./docs/codingtests/function/align/18870.py)|좌표 압축|[백준 18870](https://www.acmicpc.net/problem/18870)|
+|집합과 맵||[function.py](./docs/codingtests/function/sets_and_maps/10815.py)|숫자 카드|[백준 10815](https://www.acmicpc.net/problem/10815)|
+|집합과 맵||[function.py](./docs/codingtests/function/sets_and_maps/14425.py)|문자열 집합|[백준 14425](https://www.acmicpc.net/problem/14425)|
+|집합과 맵||[function.py](./docs/codingtests/function/sets_and_maps/7785.py)|회사에 있는 사람|[백준 7785](https://www.acmicpc.net/problem/7785)|
+|집합과 맵||[function.py](./docs/codingtests/function/sets_and_maps/1620.py)|나는야 포켓몬 마스터 이다솜|[백준 1620](https://www.acmicpc.net/problem/1620)|
+|집합과 맵||[function.py](./docs/codingtests/function/sets_and_maps/10816.py)|숫자 카드 2|[백준 10816](https://www.acmicpc.net/problem/10816)|
+|집합과 맵||[function.py](./docs/codingtests/function/sets_and_maps/1764.py)|듣보잡|[백준 1764](https://www.acmicpc.net/problem/1764)|
+|집합과 맵||[function.py](./docs/codingtests/function/sets_and_maps/1269.py)|대칭 차집합|[백준 1269](https://www.acmicpc.net/problem/1269)|
+|집합과 맵||[function.py](./docs/codingtests/function/sets_and_maps/11478.py)|서로 다른 부분 문자열의 개수|[백준 11478](https://www.acmicpc.net/problem/11478)|
+
 ### 코드 블럭
 ~$ python ./solving_problems_functions.py
 ~$ python ./solving_problems_classes.py
