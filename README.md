@@ -1,4 +1,86 @@
 <details open>
+<summary><h1>Python Basic</h1></summary>
+
+|구분|이름|설명|비고|
+|--|--|--|--|
+|1|[input](docs/basic/basic_input.py)|문자, 숫자 입력하기||
+|2|[outnput](docs/basic/basic_outputs.py)|값 출력하기||
+|3|[if,elif,else](docs/basic/basic_if_elif_elses.py)|가정문 배우기||
+|4|[while](docs/basic/basic_loops_whiles.py)|반복문(while) 배우기||
+|5|[for](docs/basic/basic_loops_fors.py)|반복문(for) 배우기||
+|6|[for: comprehension](docs/basic/basic_loops_fors_comprehension.py)|for문 간결하게 사용하기||
+</details>
+
+<details open>
+<summary><h1>Functions</h1></summary>
+
+|구분|이름|설명|비고|
+|--|--|--|--|
+|1|[function : format](docs/functions/functions_format.py)|function의 기본 형식||
+|2|[function : return](docs/functions/functions_returns.py)|function의 return 활용하기||
+|3|[function : parameters](docs/functions/functions_parameters.py)|다른 파일의 함수 호출하기(parameters)||
+|4|[function : main](docs/functions/functions_main.py)|다른 파일의 함수 호출하기(main)||
+|5|[function : callbacks](docs/functions/functions_callbacks.py)|콜백 함수 활용하기||
+|6|[fucntion : lambda](docs/functions/functions_lambdas.py)|lambda 활용하여 함수 만들기||
+</details>
+
+
+<details open>
+<summary><h1>Classes</h1></summary>
+
+|구분|이름|설명|비고|
+|--|--|--|--|
+|1|[class: format](docs/classes/classes_formats.py)|클래스의 기본 형식||
+|2|[class : RPG](docs/classes/classes_RPGgames.py)|class 활용하여 RPG 게임 구현하기||
+|3|[import os](docs/classes/classes_importsfrombuilt-in.py)|현재 파일 위치 확인하기||
+|4|[class : modules](docs/classes/classes_modules.py)|다른 파일에 있는 class 활용하기||
+</details>
+
+<details open>
+<summary><h1>Data types</h1></summary>
+
+|구분|이름|설명|비고|
+|--|--|--|--|
+|1|[Booleans](docs/data_types/data_types_booleans.py)|불 자료형:True or False||
+|2|[Strings](docs/data_types/data_types_strings.py)|문자열 자료형 ||
+|3|[Numerics](docs/data_types/data_types_numerics.py)|숫자형 데이터||
+|4|[Casts](docs/data_types/data_types_casts.py)|데이터 타입 변환||
+|5|[Datetime](docs/data_types/data_types_datetime.py)|시간형 데이터||
+|6|[List](docs/data_types/data_types_lists.py)|리스트 자료형||
+|7|[Dictionary](docs/data_types/data_types_dictionaries.py)|딕셔너리 자료형||
+|8|[Dictionary: mix](docs/data_types/data_types_mixes.py)|문자와 숫자가 섞여있는 딕셔너리||
+</details>
+
+<details open>
+<summary><h1>Usefuls</h1></summary>
+
+|구분|이름|설명|비고|
+|--|--|--|--|
+|1|[Range](docs/usefuls/usefuls_range.py)|Range 활용 방법||
+|2|[Exception handling : if](docs/usefuls/usefuls_demo_servers.py)|if문 활용하여 예외처리하기||
+|3|[Exception handling : Try execption](docs/usefuls/usefuls_exception_handlings.py)|Try, Exception 활용하여 예외처리하기||
+|4|[dictionary parameters](docs/usefuls/usefuls_params_kwangs.py)|dictionary를 변수로 활용하기||
+|5|[class : format](docs/usefuls/usefuls_syntax_bases.py)|예외처리가 포함된 class format||
+</details>
+
+<details open>
+<summary><h1>Quest</h1></summary>
+
+|구분|이름|설명|비고|
+|--|--|--|--|
+|1|[One hand game](docs/quests/onehandgame.py)|컴퓨터의 작동 방식 이해하기||
+|2|[input with three output](docs/quests/inputwiththree_output.py)|입력과 출력 방식 이해하기||
+|3|[BMI](docs/quests/bmi.py)|if문 실습||
+|4|[timestables : while](docs/quests/timestables.py)|while문 실습||
+|5|[timestables : for](docs/quests/.py)|for문 실습||
+|6|[Calculator : multiply](docs/quests/cal_loop_multiply.py)|function 실습||
+|7|[timestables : function](docs/quests/timestables_function.py)|try exception 실습||
+|8|[Questions](docs/quests/data_types_questions_mix.py)|질문지 작성 실습||
+|9|[class : arithmetic](docs/quests/class_arithmetic.py)|Class 실습||
+
+</details>
+
+<details open>
 <summary><h1> Coding Test</h1></summary>
 <details>
 <summary><h2>백준</h2></summary>
@@ -194,87 +276,6 @@
 </details>
 </details>
 
-<details open>
-<summary><h1>Python Basic</h1></summary>
-
-|구분|이름|설명|비고|
-|--|--|--|--|
-|1|[input](docs/basic/basic_input.py)|문자, 숫자 입력하기||
-|2|[outnput](docs/basic/basic_outputs.py)|값 출력하기||
-|3|[if,elif,else](docs/basic/basic_if_elif_elses.py)|가정문 배우기||
-|4|[while](docs/basic/basic_loops_whiles.py)|반복문(while) 배우기||
-|5|[for](docs/basic/basic_loops_fors.py)|반복문(for) 배우기||
-|6|[for: comprehension](docs/basic/basic_loops_fors_comprehension.py)|for문 간결하게 사용하기||
-</details>
-
-<details open>
-<summary><h1>Functions</h1></summary>
-
-|구분|이름|설명|비고|
-|--|--|--|--|
-|1|[function : format](docs/functions/functions_format.py)|function의 기본 형식||
-|2|[function : return](docs/functions/functions_returns.py)|function의 return 활용하기||
-|3|[function : parameters](docs/functions/functions_parameters.py)|다른 파일의 함수 호출하기(parameters)||
-|4|[function : main](docs/functions/functions_main.py)|다른 파일의 함수 호출하기(main)||
-|5|[function : callbacks](docs/functions/functions_callbacks.py)|콜백 함수 활용하기||
-|6|[fucntion : lambda](docs/functions/functions_lambdas.py)|lambda 활용하여 함수 만들기||
-</details>
-
-
-<details open>
-<summary><h1>Classes</h1></summary>
-
-|구분|이름|설명|비고|
-|--|--|--|--|
-|1|[class: format](docs/classes/classes_formats.py)|클래스의 기본 형식||
-|2|[class : RPG](docs/classes/classes_RPGgames.py)|class 활용하여 RPG 게임 구현하기||
-|3|[import os](docs/classes/classes_importsfrombuilt-in.py)|현재 파일 위치 확인하기||
-|4|[class : modules](docs/classes/classes_modules.py)|다른 파일에 있는 class 활용하기||
-</details>
-
-<details open>
-<summary><h1>Data types</h1></summary>
-
-|구분|이름|설명|비고|
-|--|--|--|--|
-|1|[Booleans](docs/data_types/data_types_booleans.py)|불 자료형:True or False||
-|2|[Strings](docs/data_types/data_types_strings.py)|문자열 자료형 ||
-|3|[Numerics](docs/data_types/data_types_numerics.py)|숫자형 데이터||
-|4|[Casts](docs/data_types/data_types_casts.py)|데이터 타입 변환||
-|5|[Datetime](docs/data_types/data_types_datetime.py)|시간형 데이터||
-|6|[List](docs/data_types/data_types_lists.py)|리스트 자료형||
-|7|[Dictionary](docs/data_types/data_types_dictionaries.py)|딕셔너리 자료형||
-|8|[Dictionary: mix](docs/data_types/data_types_mixes.py)|문자와 숫자가 섞여있는 딕셔너리||
-</details>
-
-<details open>
-<summary><h1>Usefuls</h1></summary>
-
-|구분|이름|설명|비고|
-|--|--|--|--|
-|1|[Range](docs/usefuls/usefuls_range.py)|Range 활용 방법||
-|2|[Exception handling : if](docs/usefuls/usefuls_demo_servers.py)|if문 활용하여 예외처리하기||
-|3|[Exception handling : Try execption](docs/usefuls/usefuls_exception_handlings.py)|Try, Exception 활용하여 예외처리하기||
-|4|[dictionary parameters](docs/usefuls/usefuls_params_kwangs.py)|dictionary를 변수로 활용하기||
-|5|[class : format](docs/usefuls/usefuls_syntax_bases.py)|예외처리가 포함된 class format||
-</details>
-
-<details open>
-<summary><h1>Quest</h1></summary>
-
-|구분|이름|설명|비고|
-|--|--|--|--|
-|1|[One hand game](docs/quests/onehandgame.py)|컴퓨터의 작동 방식 이해하기||
-|2|[input with three output](docs/quests/inputwiththree_output.py)|입력과 출력 방식 이해하기||
-|3|[BMI](docs/quests/bmi.py)|if문 실습||
-|4|[timestables : while](docs/quests/timestables.py)|while문 실습||
-|5|[timestables : for](docs/quests/.py)|for문 실습||
-|6|[Calculator : multiply](docs/quests/cal_loop_multiply.py)|function 실습||
-|7|[timestables : function](docs/quests/timestables_function.py)|try exception 실습||
-|8|[Questions](docs/quests/data_types_questions_mix.py)|질문지 작성 실습||
-|9|[class : arithmetic](docs/quests/class_arithmetic.py)|Class 실습||
-
-</details>
 <!-- ### 코드 블럭
 ~$ python ./solving_problems_functions.py
 ~$ python ./solving_problems_classes.py -->
