@@ -11,7 +11,7 @@
 # my_function()
 # pass
 
-# #문항1고 ㅏ답항을 출력하는 function
+# #문항1과 답항을 출력하는 function
 # def print_question_and_answer():
 #     str_anyone = "1. 컴퓨터 운영체제에 대한 선호도는 어떠신가요?"
 #     print(str_anyone)

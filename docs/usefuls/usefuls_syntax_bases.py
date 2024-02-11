@@ -1,7 +1,7 @@
 # 코드 기본 형식
 
 ## import 시 주로 사용하는 방식
-from classes_formats import Person, Arithmetics, Class_name
+from classes.classes_formats import Person, Arithmetics, Class_name
 
 # class basic ocde
 class Class_name:

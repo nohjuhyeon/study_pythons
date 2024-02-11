@@ -1,5 +1,5 @@
 <details>
-<summary><h1> 코딩 테스트</h1></summary>
+<summary><h1> Coding Test</h1></summary>
 <details>
 <summary><h2>백준</h2></summary>
 
@@ -147,15 +147,76 @@
 </details>
 
 <details>
-<summary><h1>파이썬 기초</h1></summary>
-|구분||소스(function)|문제설명|출처|
-|--|--|--|--|--|
+<summary><h1>Python Basic</h1></summary>
+
+|구분|이름|설명|비고|
+|--|--|--|--|
+|1|[input](docs/basic/basic_input.py)|문자, 숫자 입력하기||
+|2|[outnput](docs/basic/basic_outputs.py)|값 출력하기||
+|3|[if,elif,else](docs/basic/basic_if_elif_elses.py)|가정문 배우기||
+|4|[while](docs/basic/basic_loops_whiles.py)|반복문(while) 배우기||
+|5|[for](docs/basic/basic_loops_fors.py)|반복문(for) 배우기||
+|6|[for: comprehension](docs/basic/basic_loops_fors_comprehension.py)|for문 간결하게 사용하기||
 </details>
 
 <details>
-<summary><h1>파이썬 기초</h1></summary>
+<summary><h1>Functions</h1></summary>
+
+|구분|이름|설명|비고|
+|--|--|--|--|
+|1|[function : format](docs/functions/functions_format.py)|function의 기본 형식||
+|2|[function : return](docs/functions/functions_returns.py)|function의 return 활용하기||
+|3|[function : parameters](docs/functions/functions_parameters.py)|다른 파일의 함수 호출하기(parameters)||
+|4|[function : main](docs/functions/functions_main.py)|다른 파일의 함수 호출하기(main)||
+|5|[function : callbacks](docs/functions/functions_callbacks.py)|콜백 함수 활용하기||
+|6|[fucntion : lambda](docs/functions/functions_lambdas.py)|lambda 활용하여 함수 만들기||
 </details>
 
+
+<details>
+<summary><h1>Classes</h1></summary>
+
+|구분|이름|설명|비고|
+|--|--|--|--|
+|1|[class: format](docs/classes/classes_formats.py)|클래스의 기본 형식||
+|2|[class : RPG](docs/classes/classes_RPGgames.py)|class 활용하여 RPG 게임 구현하기||
+|3|[import os](docs/classes/classes_importsfrombuilt-in.py)|현재 파일 위치 확인하기||
+|4|[class : modules](docs/classes/classes_modules.py)|다른 파일에 있는 class 활용하기||
+
+</details>
+<details>
+<summary><h1>Data types</h1></summary>
+
+|구분|이름|설명|비고|
+|--|--|--|--|
+|1|[Booleans](docs/data_types/data_types_booleans.py)|불 자료형:True or False||
+|2|[Strings](docs/data_types/data_types_strings.py)|문자열 자료형 ||
+|3|[Numerics](docs/data_types/data_types_numerics.py)|숫자형 데이터||
+|4|[Casts](docs/data_types/data_types_casts.py)|데이터 타입 변환||
+|5|[Datetime](docs/data_types/data_types_datetime.py)|시간형 데이터||
+|6|[List](docs/data_types/data_types_lists.py)|리스트 자료형||
+|7|[Dictionary](docs/data_types/data_types_dictionaries.py)|딕셔너리 자료형||
+|8|[Dictionary: mix](docs/data_types/data_types_mixes.py)|문자와 숫자가 섞여있는 딕셔너리||
+</details>
+
+<details>
+<summary><h1>Usefuls</h1></summary>
+
+|구분|이름|설명|비고|
+|--|--|--|--|
+|1|[Range](docs/usefuls/usefuls_range.py)|Range 활용 방법||
+|2|[Exception handling : if](docs/usefuls/usefuls_demo_servers.py)|if문 활용하여 예외처리하기||
+|3|[Exception handling : Try execption](docs/usefuls/usefuls_exception_handlings.py)|Try, Exception 활용하여 예외처리하기||
+|4|[dictionary parameters](docs/usefuls/usefuls_params_kwangs.py)|dictionary를 변수로 활용하기||
+|5|[class : format](docs/usefuls/usefuls_syntax_bases.py)|예외처리가 포함된 class format||
+</details>
+<details>
+<summary><h1> </h1></summary>
+
+|구분|이름|설명|비고|
+|--|--|--|--|
+|1|[]()|||
+</details>
 <!-- ### 코드 블럭
 ~$ python ./solving_problems_functions.py
 ~$ python ./solving_problems_classes.py -->
