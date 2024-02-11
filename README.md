@@ -1,10 +1,7 @@
-<details >
-  <summary>Summary</summary>
-  <p>추가적인 정보가 여기에 표시됩니다.</p>
-</details>
-
-  
-### 코딩 테스트
+<details>
+<summary><h1> 코딩 테스트</h1></summary>
+<details>
+<summary><h2>백준</h2></summary>
 
 |구분|소스(non_function)|소스(function)|문제설명|출처|
 |--|--|--|--|--|
@@ -126,7 +123,39 @@
 |집합과 맵||[function.py](./docs/codingtests/function/sets_and_maps/1764.py)|듣보잡|[백준 1764](https://www.acmicpc.net/problem/1764)|
 |집합과 맵||[function.py](./docs/codingtests/function/sets_and_maps/1269.py)|대칭 차집합|[백준 1269](https://www.acmicpc.net/problem/1269)|
 |집합과 맵||[function.py](./docs/codingtests/function/sets_and_maps/11478.py)|서로 다른 부분 문자열의 개수|[백준 11478](https://www.acmicpc.net/problem/11478)|
+|약수,배수와 소수 2||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals2/1934.py)|최소공배수|[백준 1934](https://www.acmicpc.net/problem/1934)|
+|약수,배수와 소수 2||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals2/13241.py)|최소공배수|[백준 13241](https://www.acmicpc.net/problem/13241)|
+|약수,배수와 소수 2||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals2/1735.py)|분수 합|[백준 1735](https://www.acmicpc.net/problem/1735)|
+|약수,배수와 소수 2||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals2/2485.py)|가로수|[백준 2485](https://www.acmicpc.net/problem/2485)|
+|약수,배수와 소수 2||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals2/4134.py)|다음 소수|[백준 4134](https://www.acmicpc.net/problem/4134)|
+|약수,배수와 소수 2||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals2/1929.py)|소수 구하기|[백준 1929](https://www.acmicpc.net/problem/1929)|
+|약수,배수와 소수 2||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals2/4948.py)|베르트랑 공준|[백준 4948](https://www.acmicpc.net/problem/4948)|
+|약수,배수와 소수 2||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals2/17103.py)|골드바흐 파티션|[백준 17103](https://www.acmicpc.net/problem/17103)|
+|약수,배수와 소수 2||[function.py](./docs/codingtests/function/Factors_Multiples_Decimals2/13909.py)|창문 닫기|[백준 13909](https://www.acmicpc.net/problem/13909)|
+|스택, 큐, 덱||[function.py](./docs/codingtests/function/stack_queue_deque/28278.py)|스택 2|[백준 28278](https://www.acmicpc.net/problem/28278)|
+|스택, 큐, 덱||[function.py](./docs/codingtests/function/stack_queue_deque/10773.py)|제로|[백준 10773](https://www.acmicpc.net/problem/10773)|
+|스택, 큐, 덱||[function.py](./docs/codingtests/function/stack_queue_deque/9012.py)|괄호|[백준 9012](https://www.acmicpc.net/problem/9012)|
+|스택, 큐, 덱||[function.py](./docs/codingtests/function/stack_queue_deque/4949.py)|균형잡힌 세상|[백준 4949](https://www.acmicpc.net/problem/4949)|
+|스택, 큐, 덱||[function.py](./docs/codingtests/function/stack_queue_deque/12789.py)|도키도키 간식드리미|[백준 12789](https://www.acmicpc.net/problem/12789)|
+|스택, 큐, 덱||[function.py](./docs/codingtests/function/stack_queue_deque/18258.py)|큐 2|[백준 18258](https://www.acmicpc.net/problem/18258)|
+|스택, 큐, 덱||[function.py](./docs/codingtests/function/stack_queue_deque/2164.py)|카드 2|[백준 2164](https://www.acmicpc.net/problem/2164)|
+|스택, 큐, 덱||[function.py](./docs/codingtests/function/stack_queue_deque/11866.py)|요세푸스 문제0|[백준 11866](https://www.acmicpc.net/problem/11866)|
+|스택, 큐, 덱||[function.py](./docs/codingtests/function/stack_queue_deque/28279.py)|덱 2|[백준 28279](https://www.acmicpc.net/problem/28279)|
+|스택, 큐, 덱||[function.py](./docs/codingtests/function/stack_queue_deque/2346.py)|풍선 터뜨리기|[백준 2346](https://www.acmicpc.net/problem/2346)|
+|스택, 큐, 덱||[function.py](./docs/codingtests/function/stack_queue_deque/24511.py)|queuestack|[백준 24511](https://www.acmicpc.net/problem/24511)|
+</details>
+</details>
 
-### 코드 블럭
+<details>
+<summary><h1>파이썬 기초</h1></summary>
+|구분||소스(function)|문제설명|출처|
+|--|--|--|--|--|
+</details>
+
+<details>
+<summary><h1>파이썬 기초</h1></summary>
+</details>
+
+<!-- ### 코드 블럭
 ~$ python ./solving_problems_functions.py
-~$ python ./solving_problems_classes.py
+~$ python ./solving_problems_classes.py -->
