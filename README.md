@@ -1,4 +1,4 @@
-<details>
+<details open>
 <summary><h1> Coding Test</h1></summary>
 <details>
 <summary><h2>백준</h2></summary>
@@ -146,7 +146,7 @@
 </details>
 </details>
 
-<details>
+<details open>
 <summary><h1>Python Basic</h1></summary>
 
 |구분|이름|설명|비고|
@@ -159,7 +159,7 @@
 |6|[for: comprehension](docs/basic/basic_loops_fors_comprehension.py)|for문 간결하게 사용하기||
 </details>
 
-<details>
+<details open>
 <summary><h1>Functions</h1></summary>
 
 |구분|이름|설명|비고|
@@ -173,7 +173,7 @@
 </details>
 
 
-<details>
+<details open>
 <summary><h1>Classes</h1></summary>
 
 |구분|이름|설명|비고|
@@ -182,9 +182,9 @@
 |2|[class : RPG](docs/classes/classes_RPGgames.py)|class 활용하여 RPG 게임 구현하기||
 |3|[import os](docs/classes/classes_importsfrombuilt-in.py)|현재 파일 위치 확인하기||
 |4|[class : modules](docs/classes/classes_modules.py)|다른 파일에 있는 class 활용하기||
-
 </details>
-<details>
+
+<details open>
 <summary><h1>Data types</h1></summary>
 
 |구분|이름|설명|비고|
@@ -199,7 +199,7 @@
 |8|[Dictionary: mix](docs/data_types/data_types_mixes.py)|문자와 숫자가 섞여있는 딕셔너리||
 </details>
 
-<details>
+<details open>
 <summary><h1>Usefuls</h1></summary>
 
 |구분|이름|설명|비고|
@@ -210,7 +210,8 @@
 |4|[dictionary parameters](docs/usefuls/usefuls_params_kwangs.py)|dictionary를 변수로 활용하기||
 |5|[class : format](docs/usefuls/usefuls_syntax_bases.py)|예외처리가 포함된 class format||
 </details>
-<details>
+
+<details open>
 <summary><h1>Quest</h1></summary>
 
 |구분|이름|설명|비고|
