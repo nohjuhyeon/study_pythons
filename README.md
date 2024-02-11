@@ -211,11 +211,20 @@
 |5|[class : format](docs/usefuls/usefuls_syntax_bases.py)|예외처리가 포함된 class format||
 </details>
 <details>
-<summary><h1> </h1></summary>
+<summary><h1>Quest</h1></summary>
 
 |구분|이름|설명|비고|
 |--|--|--|--|
-|1|[]()|||
+|1|[One hand game](docs/quests/onehandgame.py)|컴퓨터의 작동 방식 이해하기||
+|2|[input with three output](docs/quests/inputwiththree_output.py)|입력과 출력 방식 이해하기||
+|3|[BMI](docs/quests/bmi.py)|if문 실습||
+|4|[timestables : while](docs/quests/timestables.py)|while문 실습||
+|5|[timestables : for](docs/quests/.py)|for문 실습||
+|6|[Calculator : multiply](docs/quests/cal_loop_multiply.py)|function 실습||
+|7|[timestables : function](docs/quests/timestables_function.py)|try exception 실습||
+|8|[Questions](docs/quests/data_types_questions_mix.py)|질문지 작성 실습||
+|9|[class : arithmetic](docs/quests/class_arithmetic.py)|Class 실습||
+
 </details>
 <!-- ### 코드 블럭
 ~$ python ./solving_problems_functions.py
