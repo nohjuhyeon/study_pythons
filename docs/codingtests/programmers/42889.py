@@ -55,15 +55,15 @@ def solution(N, stages):
                     fail_num +=1
                 else:
                     break
-            dict_answer[i+1] = int((fail_num/entire_num)*100)
+            dict_answer[i+1] = (fail_num/entire_num)
     answer_list = sorted(dict_answer.items(), key=lambda x: (-x[1]))
     answer = [0]*N
     for i in range(N):
         answer[i] = answer_list[i][0]
     return answer
 
-N = 2
-stages = [1,1]
+N = 5
+stages = [1,3,2,1,4,1,1,1]
 # 1:1 3:4 2:6 1:7 0 1
 answer = solution(N,stages)
 print(answer)
