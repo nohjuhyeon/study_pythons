@@ -35,14 +35,24 @@
 # 입출력 예 #3
 ## 예제 3번은 모든 구역에 페인트칠을 해야 합니다. 롤러의 길이가 1미터이므로 한 번에 한 구역밖에 칠할 수 없습니다. 구역이 4개이므로 각 구역을 한 번씩만 칠하는 4번이 최소 횟수가 됩니다.
 ## 따라서 4를 return 합니다.
-
+from collections import deque
 def solution(n, m, section):
     answer = 0
+    section = deque(section)
+    for i in range(len(section)):
+        check_num = section[0]+m-1
+        for i in range(len(section)):
+            if section[0]<=check_num:
+                section.popleft()
+            else:
+                break
+        answer += 1
+        if len(section) == 0:
+            break
     return answer
-
-n = 8
-m = 4
-section = [2,3,6]
+n = 4
+m = 1
+section = [1,2,3,4]
 
 answer = solution(n, m, section)
 print(answer)
